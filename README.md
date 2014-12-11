@@ -1,7 +1,7 @@
 ###Organization 1
 
 - Activity 1:  Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
-    - **TODO:** Make folder full of disorganized files from gapminder dataset
+    - **DONE:** Make folder full of disorganized files from gapminder dataset
 - Lecture (Jenny)
     + algorithmic thinking (input vs. output, intermediate or derived = output AND input, something that converts input to output)
     + file naming (self-documentation, pay attention to implications for sorting)
