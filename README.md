@@ -14,8 +14,8 @@
     + How are they different? Why is one more suitable for analysis than the other?
     + Take away: If you can design away deficiences in data collection, DO! If too late for that, consider if this is a "one-time" cleaning or a potentially repeated task. Protip: it's probably the latter. Best practice is to clean with a script, not point and click.
     + Hands-on. Fix the broken excel data sheet. (?)
-    + show them how to export to .csv
-    + Reference: Excel data carpentry lesson Documenting in Excel 
+- show them how to export to .csv
+    + Reference to Excel data carpentry lesson: Documenting in Excel 
 - R via Rstudio (assuming they've seen this IDE earlier)
   + simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
   + same actions but embedded in `.Rmd`
