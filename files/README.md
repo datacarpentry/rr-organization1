@@ -10,3 +10,9 @@
 
 - data_full.csv is the same as data1.xlsx (missing all Australia" data), but as a csv file
 
+####R Script Files
+
+- final_analyses.R used to make graph.png output
+- final_analyses1.R will output a similar graph, but only for year < 1980
+- really_final_analyses.R is the same as final_analyses.R
+
