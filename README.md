@@ -30,26 +30,32 @@
    + **TODO:** Make slides on literature programming and knitr, working through Rmd file they used in the first session
  
 
-LICENSE and ATTRIBUTION    
+### LICENSE and ATTRIBUTION  
+
 Gapminder data [available here](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
 
 Processed data via [@jennybc](https://github.com/jennybc), [R package available here](https://github.com/jennybc/gapminder). The [data-raw](https://github.com/jennybc/gapminder/tree/master/data-raw) sub-directory reveals the journey from Gapminder.org's Excel workbooks to increasingly clean and tidy data.
   
-  * cleanest data is in [07_gap-every-five-years.tsv](https://github.com/jennybc/gapminder/blob/master/data-raw/07_gap-every-five-years.tsv)
-  * this gives rise to the data.frame provided by the R package
+    * cleanest data is in [07_gap-every-five-years.tsv](https://github.com/jennybc/gapminder/blob/master/data-raw/07_gap-every-five-years.tsv)
+    * this gives rise to the data.frame provided by the R package
 
 ### Links relevant to items above
 
 UBC Library Research Data Management has good resources
-  * File Naming Conventions & Best Practices <http://researchdata.library.ubc.ca/organize/>
-  * File Format Considerations <http://researchdata.library.ubc.ca/format/>Links from Jenny relevant to our outline
 
-ISO 8601 standard for dates <http://en.wikipedia.org/wiki/ISO_8601>
+    * File Naming Conventions & Best Practices <http://researchdata.library.ubc.ca/organize/>
+    * File Format Considerations <http://researchdata.library.ubc.ca/format/>Links from Jenny relevant to our outline
 
-*is there a good link for ...?* making numeric and lexical order coincide, i.e. 01, 02,..., 10 is stands test of time better than 1, 2, ..., 10
+Naming practices
 
-Filename extension conventions <http://en.wikipedia.org/wiki/List_of_file_formats>
+    * ISO 8601 standard for dates <http://en.wikipedia.org/wiki/ISO_8601>
+    * File naming guides and suggestions
+        * http://www.exadox.com/en/articles/file-naming-convention-ten-rules-best-practice
+        * http://www.mnhs.org/preserve/records/electronicrecords/erfnaming.php
+        * http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/FileNameRules.htm
+        * http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/Rules.htm
+    * Filename extension conventions <http://en.wikipedia.org/wiki/List_of_file_formats>
 
 Spreadsheet advice from UK's Government Statistical Service Good Practice Team [PDF](https://gss.civilservice.gov.uk/wp-content/uploads/2012/12/Releasing-statistics-in-spreadsheets-Good-practice-guidance.pdf)
 
-Nine simple ways to make it easier to (re)use your data by EP White, E Baldridge, ZT Brym, KJ Locey, DJ McGlinn, SR Supp. Ideas in Ecology and Evolution 6(2): 1–10, 2013. doi:10.4033/iee.2013.6b.6.f <http://library.queensu.ca/ojs/index.php/IEE/article/view/4608>. See the section "Use standard table formats".
+Nine simple ways to make it easier to (re)use your data by EP White, E Baldridge, ZT Brym, KJ Locey, DJ McGlinn, SR Supp. Ideas in Ecology and Evolution 6(2): 1–10, 2013. [doi:10.4033/iee.2013.6b.6.f] (http://library.queensu.ca/ojs/index.php/IEE/article/view/4608). See the section "Use standard table formats".
