@@ -1,7 +1,7 @@
 ###Organization 1
 
-- Activity 1:  Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis.
-- Lecture 
+- Activity 1:  Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
+- Lecture (Jenny)
     + algorithmic thinking (input vs. output, intermediate or derived = output AND input, something that converts input to output)
     + file naming (self-documentation, pay attention to implications for sorting)
     + data is raw (neither overwrite nor duplicate)
@@ -9,14 +9,14 @@
     + file formats (text non proprietary, file extensions)
 - Conclusing Discussion
     + A or B quick break (is A better than B? why? here's C ... how could you improve it?)
-- Activity 2
+- Activity 2 (Naupaka)
     + Broken excel data sheet: Juxtapose typical spreadsheet vs. spreadsheet ready for analysis
     + How are they different? Why is one more suitable for analysis than the other?
     + Take away: If you can design away deficiences in data collection, DO! If too late for that, consider if this is a "one-time" cleaning or a potentially repeated task. Protip: it's probably the latter. Best practice is to clean with a script, not point and click.
     + Hands-on. Fix the broken excel data sheet. Everyone take notes on how to document
-- show them how to export to .csv
-- Reference to Excel data carpentry lesson 
-- R via Rstudio (assuming they've seen this IDE earlier)
+    + show them how to export to .csv
+    + Reference to Excel data carpentry lesson 
+- R via Rstudio (assuming they've seen this IDE earlier) (Jenny re: lecture; rest will wait to see concrete details on what group 1 produces re: an Rmd file)
    + Slides on what is literate program
    + simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
    + commenting that script (Why selecting sweden, not what the subset function is doing)
