@@ -36,25 +36,25 @@ Gapminder data [available here](http://www.gapminder.org/data/). [Gapminder data
 
 Processed data via [@jennybc](https://github.com/jennybc), [R package available here](https://github.com/jennybc/gapminder). The [data-raw](https://github.com/jennybc/gapminder/tree/master/data-raw) sub-directory reveals the journey from Gapminder.org's Excel workbooks to increasingly clean and tidy data.
   
-    * cleanest data is in [07_gap-every-five-years.tsv](https://github.com/jennybc/gapminder/blob/master/data-raw/07_gap-every-five-years.tsv)
-    * this gives rise to the data.frame provided by the R package
+    - cleanest data is in [07_gap-every-five-years.tsv](https://github.com/jennybc/gapminder/blob/master/data-raw/07_gap-every-five-years.tsv)
+    - this gives rise to the data.frame provided by the R package
 
 ### Links relevant to items above
 
 UBC Library Research Data Management has good resources
 
-    * File Naming Conventions & Best Practices <http://researchdata.library.ubc.ca/organize/>
-    * File Format Considerations <http://researchdata.library.ubc.ca/format/>Links from Jenny relevant to our outline
+    - File Naming Conventions & Best Practices <http://researchdata.library.ubc.ca/organize/>
+    - File Format Considerations <http://researchdata.library.ubc.ca/format/>Links from Jenny relevant to our outline
 
 Naming practices
 
-    * ISO 8601 standard for dates <http://en.wikipedia.org/wiki/ISO_8601>
-    * File naming guides and suggestions
-        * http://www.exadox.com/en/articles/file-naming-convention-ten-rules-best-practice
-        * http://www.mnhs.org/preserve/records/electronicrecords/erfnaming.php
-        * http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/FileNameRules.htm
-        * http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/Rules.htm
-    * Filename extension conventions <http://en.wikipedia.org/wiki/List_of_file_formats>
+    - ISO 8601 standard for dates <http://en.wikipedia.org/wiki/ISO_8601>
+    - File naming guides and suggestions
+        - http://www.exadox.com/en/articles/file-naming-convention-ten-rules-best-practice
+        - http://www.mnhs.org/preserve/records/electronicrecords/erfnaming.php
+        - http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/FileNameRules.htm
+        - http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/Rules.htm
+    - Filename extension conventions <http://en.wikipedia.org/wiki/List_of_file_formats>
 
 Spreadsheet advice from UK's Government Statistical Service Good Practice Team [PDF](https://gss.civilservice.gov.uk/wp-content/uploads/2012/12/Releasing-statistics-in-spreadsheets-Good-practice-guidance.pdf)
 
