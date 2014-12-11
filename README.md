@@ -7,8 +7,7 @@
     + data is raw (neither overwrite nor duplicate)
     + minimal input and output
     + file formats (text non proprietary, file extensions)
-- Conclusing Discussion
-    + A or B quick break (is A better than B? why? here's C ... how could you improve it?)
+    + Concluding Discussion: is A better than B? why? here's C ... how could you improve it?
 - Activity 2 (Naupaka)
     + Broken excel data sheet: Juxtapose typical spreadsheet vs. spreadsheet ready for analysis
     + How are they different? Why is one more suitable for analysis than the other?
