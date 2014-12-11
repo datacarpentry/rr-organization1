@@ -29,6 +29,7 @@
 
 - *Assumes they've seen this IDE earlier*
 - **TODO:** Jenny re: lecture; rest will wait to see concrete details on what group 1 produces re: an Rmd file)
+    - [Link to work in progress](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/lecture02_literate-programming-via-rmarkdown.md).
 - **TODO:** Make slides on literature programming and knitr, working through Rmd file they used in the first session
 - Slides on what is literate program
 - simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
