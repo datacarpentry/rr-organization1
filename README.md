@@ -7,7 +7,7 @@
     + data is raw (neither overwrite nor duplicate)
     + minimal input and output
     + file formats (text non proprietary, file extensions)
-- Activity 2
+- Conclusing Discussion
     + A or B quick break (is A better than B? why? here's C ... how could you improve it?)
 - Activity 3
     + Broken excel data sheet: Juxtapose typical spreadsheet vs. spreadsheet ready for analysis
