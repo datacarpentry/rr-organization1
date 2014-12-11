@@ -1,13 +1,13 @@
 ###Organization 1
 
-- Activity 1:  Forensic Science
+- Activity 1:  Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis.
 - Lecture 
     + algorithmic thinking (input vs. output, intermediate or derived = output AND input, something that converts input to output)
     + file naming (self-documentation, pay attention to implications for sorting)
     + data is raw (neither overwrite nor duplicate)
     + minimal input and output
     + file formats (text non proprietary, file extensions)
--Activity 2
+- Activity 2
     + A or B quick break (is A better than B? why? here's C ... how could you improve it?)
 - Activity 3
     + Broken excel data sheet: Juxtapose typical spreadsheet vs. spreadsheet ready for analysis
