@@ -1,6 +1,7 @@
 ###Organization 1
 
 - Activity 1:  Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
+    - **TODO:** Make folder full of disorganized files from gapminder dataset
 - Lecture (Jenny)
     + algorithmic thinking (input vs. output, intermediate or derived = output AND input, something that converts input to output)
     + file naming (self-documentation, pay attention to implications for sorting)
@@ -8,10 +9,13 @@
     + minimal input and output
     + file formats (text non proprietary, file extensions)
     + Concluding Discussion: is A better than B? why? here's C ... how could you improve it?
+    + **TODO:** Create lecture
 - Activity 2 (Naupaka)
     + Broken excel data sheet: Juxtapose typical spreadsheet vs. spreadsheet ready for analysis
     + How are they different? Why is one more suitable for analysis than the other?
     + Take away: If you can design away deficiences in data collection, DO! If too late for that, consider if this is a "one-time" cleaning or a potentially repeated task. Protip: it's probably the latter. Best practice is to clean with a script, not point and click.
+    + **TODO:** Make small subset of gapminder data (Oceania?)
+    + **TODO:** Break spreadsheet in excel and document problems (for instructors)
     + Hands-on. Fix the broken excel data sheet. Everyone take notes on how to document
     + show them how to export to .csv
     + Reference to Excel data carpentry lesson 
@@ -23,6 +27,7 @@
    + run both using interactive run, whole file source, Preview/Knit HTML
    + note what sorts of outputs are left behind
    + Wrap-up activity: which files can we delete and reproduce? Which files are inputs, outputs, converters of inputs to outputs?
+   + **TODO:** Make slides on literature programming and knitr, working through Rmd file they used in the first session
  
 
 LICENSE and ATTRIBUTION    
