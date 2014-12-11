@@ -19,7 +19,7 @@
 - R via Rstudio (assuming they've seen this IDE earlier)
    + Slides on what is literate program
    + simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
-   + commenting that script
+   + commenting that script (Why selecting sweden, not what the subset function is doing)
    + same actions but embedded in `.Rmd`
    + run both using interactive run, whole file source, Preview/Knit HTML
    + note what sorts of outputs are left behind
