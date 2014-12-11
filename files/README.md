@@ -22,3 +22,4 @@
 ####Graphs
 
 - graph.png was created from 'final_analyses.R'
+- draft_graph.docx made in excel using data from cameroon and then pasted into a word file
