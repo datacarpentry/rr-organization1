@@ -17,11 +17,14 @@
 - show them how to export to .csv
 - Reference to Excel data carpentry lesson 
 - R via Rstudio (assuming they've seen this IDE earlier)
-  + simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
-  + same actions but embedded in `.Rmd`
-  + run both using interactive run, whole file source, Preview/Knit HTML
-  + note what sorts of outputs are left behind
-  + Wrap-up activity: which files can we delete and reproduce? Which files are inputs, outputs, converters of inputs to outputs?
+   + Slides on what is literate program
+   + simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
+   + commenting that script
+   + same actions but embedded in `.Rmd`
+   + run both using interactive run, whole file source, Preview/Knit HTML
+   + note what sorts of outputs are left behind
+   + Wrap-up activity: which files can we delete and reproduce? Which files are inputs, outputs, converters of inputs to outputs?
+ 
 
 LICENSE and ATTRIBUTION    
 Gapminder data [available here](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz). *note from Jenny: who put this in about Gapminder data being CC-BY 3.0 and where's that coming from?*
