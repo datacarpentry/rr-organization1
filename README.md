@@ -39,9 +39,7 @@
 - note what sorts of outputs are left behind
 - Wrap-up activity: which files can we delete and reproduce? Which files are inputs, outputs, converters of inputs to outputs?
 
------------
-
-### Links relevant to items above
+## Links relevant to items above
 
 #### UBC Library Research Data Management has good resources
 
