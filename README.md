@@ -2,7 +2,7 @@
 
 ### Activity 1
 - Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
-    - **TODO:** Make folder full of disorganized files from gapminder dataset
+- **DONE:** Make folder full of disorganized files from gapminder dataset
 
 ### Lecture (Jenny)
 
@@ -19,7 +19,7 @@
 - Broken excel data sheet: Juxtapose typical spreadsheet vs. spreadsheet ready for analysis
 - How are they different? Why is one more suitable for analysis than the other?
 - Take away: If you can design away deficiences in data collection, DO! If too late for that, consider if this is a "one-time" cleaning or a potentially repeated task. Protip: it's probably the latter. Best practice is to clean with a script, not point and click.
-- **TODO:** Make small subset of gapminder data (Oceania?)
+- **DONE:** Make small subset of gapminder data (Oceania?)
 - **TODO:** Break spreadsheet in excel and document problems (for instructors)
 - Hands-on. Fix the broken excel data sheet. Everyone take notes on how to document
 - show them how to export to .csv
