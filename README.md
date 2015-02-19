@@ -4,7 +4,7 @@
 - Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
 - **DONE:** Make folder full of disorganized files from gapminder dataset
 
-### Lecture (Jenny)
+### Lecture (Jenny - @jennybc)
 
 - algorithmic thinking (input vs. output, intermediate or derived = output AND input, something that converts input to output)
 - file naming (self-documentation, pay attention to implications for sorting)
@@ -14,7 +14,7 @@
 - Concluding Discussion: is A better than B? why? here's C ... how could you improve it?
 - **TODO:** Create lecture
 
-### Activity 2 (Naupaka)
+### Activity 2 (Naupaka - @naupaka)
 
 - Broken excel data sheet: Juxtapose typical spreadsheet vs. spreadsheet ready for analysis
 - How are they different? Why is one more suitable for analysis than the other?
