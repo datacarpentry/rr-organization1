@@ -10,7 +10,7 @@
 The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/wiki/Template-for-lessons) guidelines.
 
 ##01-file-organization
-- **TODO:** Add learning objectives to `01-file-organization.md'*
+- **TODO:** Add learning objectives to `01-file-organization.md`
 
 ### Activity 1
 - Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
