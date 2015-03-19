@@ -1,9 +1,11 @@
 ## Organization 1
 
-###Important Links and Times
-
--  [Lesson Template Guidlines](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/wiki/Template-for-lessons)
--  [Doodle poll for first meeting to finish](http://doodle.com/wyfzrsv78wkvs8tc)
+###People
+-  Jennifer Bryan: jenny@stat.ubc.ca
+-  Ciera Martinez ciera.martinez@gmail.com
+-  Kristina Riemer kristina.riemer@weecology.org
+-  Courtney Soderberg courtney@cos.io
+-  Naupaka Zimmerman naupaka@gmail.com
 
 ### Activity 1
 - Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
