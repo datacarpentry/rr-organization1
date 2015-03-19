@@ -1,14 +1,21 @@
-## Organization 1
+# Organization 1
 
-###People
+##People
 -  Jennifer Bryan: jenny@stat.ubc.ca
 -  Ciera Martinez ciera.martinez@gmail.com
 -  Kristina Riemer kristina.riemer@weecology.org
 -  Courtney Soderberg courtney@cos.io
 -  Naupaka Zimmerman naupaka@gmail.com
 
+The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/wiki/Template-for-lessons) guidelines.
+
+##01-file-organization
+- **TODO:** Add learning objectives to `01-file-organization.md'*
+
 ### Activity 1
 - Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
+- **TODO:** Make instructor guidelines on how to run activity and add to `instructors.md`
+- **TODO:** Figure out how to disseminate files. 
 - **DONE:** Make folder full of disorganized files from gapminder dataset
 
 ### Lecture (Jenny - @jennybc)
@@ -19,7 +26,12 @@
 - minimal input and output
 - file formats (text non proprietary, file extensions)
 - Concluding Discussion: is A better than B? why? here's C ... how could you improve it?
-- **TODO:** Create lecture
+- **TODO:** Create lecture [Jenny's outline](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/lecture02_literate-programming-via-rmarkdown.md)
+
+##02-programatic-modification
+
+- **TODO:** Make instructor guidelines on how to run activity and add to `instructors.md`
+- **TODO:** Add learning objectives to `02-programatic-modification.md'*
 
 ### Activity 2 (Naupaka - @naupaka)
 
@@ -27,6 +39,7 @@
 - How are they different? Why is one more suitable for analysis than the other?
 - Take away: If you can design away deficiences in data collection, DO! If too late for that, consider if this is a "one-time" cleaning or a potentially repeated task. Protip: it's probably the latter. Best practice is to clean with a script, not point and click.
 - **DONE:** Make small subset of gapminder data (Oceania?)
+
 - **TODO:** Break spreadsheet in excel and document problems (for instructors)
 - Hands-on. Fix the broken excel data sheet. Everyone take notes on how to document
 - show them how to export to .csv
@@ -34,10 +47,11 @@
 
 ### R via Rstudio 
 
-- *Assumes they've seen this IDE earlier*
+- **NEED:** Find out if they've seen this IDE earlier and to what extent
 - **TODO:** Jenny re: lecture; rest will wait to see concrete details on what group 1 produces re: an Rmd file)
     - [Link to work in progress](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/lecture02_literate-programming-via-rmarkdown.md).
 - **TODO:** Make slides on literature programming and knitr, working through Rmd file they used in the first session
+- **TODO:** Make instructor guidelines on how to run activity and add to `instructors.md`
 - Slides on what is literate program
 - simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
 - commenting that script (Why selecting sweden, not what the subset function is doing)
