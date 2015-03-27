@@ -2,7 +2,7 @@
 
 ##People
 -  Jennifer Bryan: jenny@stat.ubc.ca
--  Ciera Martinez ciera.martinez@gmail.com
+-  **Ciera Martinez** ciera.martinez@gmail.com
 -  Kristina Riemer kristina.riemer@weecology.org
 -  Courtney Soderberg courtney@cos.io
 -  Naupaka Zimmerman naupaka@gmail.com
