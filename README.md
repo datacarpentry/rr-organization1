@@ -26,7 +26,7 @@ The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-S
 - minimal input and output
 - file formats (text non proprietary, file extensions)
 - Concluding Discussion: is A better than B? why? here's C ... how could you improve it?
-- **TODO:** Create lecture [Jenny's outline](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/lecture02_literate-programming-via-rmarkdown.md)
+- **TODO:** Create lecture.  
 
 ##02-programatic-modification
 
