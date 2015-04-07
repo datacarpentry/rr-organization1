@@ -18,6 +18,7 @@ Often times in research you are given files and are expected to understand the p
 Let's take a look at the `01-forensic-science` folder.  This is the project directory from a researcher exploring the gapminder data that you were introduced to earlier today.  Look through the contents of this folder and  try to answer these questions about this project. 
 
 **Questions**
+
 1.  What type of study is this?
 2.  What are the conclusions of this study?
 3.  When was this study performed?
