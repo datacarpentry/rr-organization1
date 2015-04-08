@@ -10,7 +10,7 @@
 The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/wiki/Template-for-lessons) guidelines.
 
 ##01-file-organization
-- **TODO:** Add learning objectives to `01-file-organization.md`
+- **DONE:** Add learning objectives to `01-file-organization.md`
 
 ### Activity 1
 - Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
@@ -45,7 +45,7 @@ The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-S
 - show them how to export to .csv
 - Reference to Excel data carpentry lesson
 
-### R via Rstudio 
+### 03-literate-programming.md - R via RStudio 
 
 - **NEED:** Find out if they've seen this IDE earlier and to what extent
 - **TODO:** Jenny re: lecture; rest will wait to see concrete details on what group 1 produces re: an Rmd file)
