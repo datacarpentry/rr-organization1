@@ -45,7 +45,7 @@ The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-S
 - show them how to export to .csv
 - Reference to Excel data carpentry lesson
 
-### 03-literate-programming.md - R via RStudio 
+## 03-literate-programming - R via RStudio 
 
 - **NEED:** Find out if they've seen this IDE earlier and to what extent
 - **TODO:** Jenny re: lecture; rest will wait to see concrete details on what group 1 produces re: an Rmd file)
