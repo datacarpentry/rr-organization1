@@ -5,7 +5,7 @@ output: pdf_document
 
 ##Purpose
 
-The purpose of this report is to compare the population trends for four countries of your choosing.  
+The purpose of this report is to compare the population trends for four countries of your choosing.  In addition, this serves as an example of literate programming. Literate programming is a way to document how you performed your analysis. It serves as a guide to other to others (and your future self) how to reproduce your work. 
 
 ##Required Libraries 
 ```{r}
@@ -13,6 +13,8 @@ library(ggplot2)
 ```
 
 ##Data
+
+Always add as many details as possible about your data including where it came from, how it was processed, licensing, and where it can be accessed. 
 
 - Gapminder data [available here](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
 
@@ -58,7 +60,7 @@ ggplot(country1, aes(year, pop, label = country)) +
   theme(plot.title = element_text(size = 15, face = "bold")) 
 ```
 
-This second graph is looking at the correlation between life expectency (lifeExp) and income per person (gdpPercap). The size of the points on the plot represent. 
+This second graph is looking at the correlation between life expectency (lifeExp) and income per person (gdpPercap). The size of the points on the plot represents total population.
 
 ```{r}
 ggplot(country1, aes(gdpPercap, lifeExp, label = country, size = pop)) + 
@@ -80,7 +82,7 @@ ggplot(country2, aes(year, pop, label = country)) +
   theme(plot.title = element_text(size = 15, face = "bold"))
 ```
 
-**Notes**: In a real report you can add in information about the results of the analysis you are performing.  That way your code, analysis, questions, and results are all in one place. 
+**Notes**: In a real report you can add information about the results of the analysis you are performing.  That way your code, analysis, questions, and results are all in one place. 
 
 ```{r, echo = FALSE}
 ggplot(country2, aes(gdpPercap, lifeExp, label = country, size = pop)) + 
@@ -100,7 +102,7 @@ ggplot(country3, aes(year, pop, label = country)) +
   theme(plot.title = element_text(size = 15, face = "bold"))
 ```
 
-**Notes** Maybe a country has an unusual distribution and we want to label the graph with the year.  So we add a bit of code and label with year.
+**Notes** Maybe a country has an unusual distribution and we want to label the graph with the year. We added `label = year` to the first line of the code below.  To display the text we also added the `geom_text(hjust = 1, vjust = 0, size = 5)` option.
 
 ```{r}
 ggplot(country3, aes(lifeExp, gdpPercap, size = pop, label = year)) + 
@@ -177,3 +179,6 @@ ggplot(allCountries,
   theme(strip.text = element_text(size = rel(1.1)))
 ```
 
+##Conclusions
+
+In a real report you can add conclusions about your analysis or future plans for the project. The best part is that if you want to change something in your report you don't have to redo every step. You can just make the change and re-print the report.
