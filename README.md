@@ -30,20 +30,18 @@ The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-S
 
 ##02-programatic-modification
 
-- **TODO:** Make instructor guidelines on how to run activity and add to `instructors.md`
-- **TODO:** Add learning objectives to `02-programatic-modification.md'*
+- **DONE:** Make instructor guidelines on how to run activity and add to `instructors.md`
+- **DONE:** Add learning objectives to `02-programatic-modification.md'*
 
 ### Activity 2 (Naupaka - @naupaka)
 
-- Broken excel data sheet: Juxtapose typical spreadsheet vs. spreadsheet ready for analysis
-- How are they different? Why is one more suitable for analysis than the other?
+- Broken excel data sheet: Show typical spreadsheet (`oceania_broken.xlsx`) and have students document changes they see as necessary before having it ready for analysis (writing each step in a text file) . Then go through all fixes needed and discuss why each is important.
 - Take away: If you can design away deficiences in data collection, DO! If too late for that, consider if this is a "one-time" cleaning or a potentially repeated task. Protip: it's probably the latter. Best practice is to clean with a script, not point and click.
-- **DONE:** Make small subset of gapminder data (Oceania?)
-
-- **TODO:** Break spreadsheet in excel and document problems (for instructors)
-- Hands-on. Fix the broken excel data sheet. Everyone take notes on how to document
-- show them how to export to .csv
-- Reference to Excel data carpentry lesson
+- **DONE:** Make small subset of gapminder data (Oceania)
+- **DONE:** Break spreadsheet in excel and document problems (for instructors)
+- Hands-on (Activity 2). Fix the broken excel data sheet. Everyone take notes on how to document
+- Demonstrate export to .csv
+- [Link to Excel data carpentry lesson]()
 
 ## 03-literate-programming - R via RStudio 
 
