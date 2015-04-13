@@ -1,6 +1,6 @@
 ---
 title: "Pick four - comparing trends in population  over time"
-output: word_document
+output: pdf_document
 ---
 
 ##Purpose
@@ -21,7 +21,7 @@ library(ggplot2)
 **Read in data**: To read in the data, make sure this file is in the same directory/folder as the `gapminderDataFiveYear.txv` file.  To set the proper working directory go to Session > Set Working Directory > To Source File Location. 
 
 ```{r}
-gapMinder <- read.delim("../../gapminderDataFiveYear.tsv") 
+gapMinder <- read.delim("gapminderDataFiveYear.tsv") 
 
 ##Check data 
 head(gapMinder) #First 10 lines of dataset
