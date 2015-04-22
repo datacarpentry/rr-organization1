@@ -9,6 +9,10 @@
 
 The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/wiki/Template-for-lessons) guidelines.
 
+## General overview
+
+Students will learn the benefits of project and folder organization, and how these enable reproducibility and reusability. They will then complete an activity highlighting the structure of data files, emphasizing the importance of documenting any changes made. Finally, they will bring these two activities together in the context of a reproducible project workflow centered around using `knitr` in RStudio.
+
 ##01-file-organization
 - **DONE:** Add learning objectives to `01-file-organization.md`
 
