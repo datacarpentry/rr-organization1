@@ -1,0 +1,184 @@
+---
+title: "Pick four - comparing trends in population  over time"
+output: pdf_document
+---
+
+##Purpose
+
+The purpose of this report is to compare the population trends for four countries of your choosing.  In addition, this serves as an example of literate programming. Literate programming is a way to document how you performed your analysis. It serves as a guide to other to others (and your future self) how to reproduce your work. 
+
+##Required Libraries 
+```{r}
+library(ggplot2)
+```
+
+##Data
+
+Always add as many details as possible about your data including where it came from, how it was processed, licensing, and where it can be accessed. 
+
+- Gapminder data [available here](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
+
+- Processed data via [@jennybc](https://github.com/jennybc), [R package available here](https://github.com/jennybc/gapminder). The [data-raw](https://github.com/jennybc/gapminder/tree/master/data-raw) sub-directory reveals the journey from Gapminder.org's Excel workbooks to increasingly clean and tidy data. 
+
+**Read in data**: To read in the data, make sure this file is in the same directory/folder as the `gapminderDataFiveYear.txv` file.  To set the proper working directory go to Session > Set Working Directory > To Source File Location. 
+
+```{r}
+gapMinder <- read.delim("gapminderDataFiveYear.tsv") 
+
+##Check data 
+head(gapMinder) #First 10 lines of dataset
+dim(gapMinder) #number of rows and columns in data set
+```
+
+You can see what countries are available by looking at the how many unique categories are in the country column of the gapMinder dataset.
+
+```{r, results='hide'}
+levels(gapMinder$country)
+```
+
+###Pick Four Countries
+
+Now pick four countries that you are intrested in.  Just replace with the countries name below.
+
+```{r}
+countryName1 <- "India"
+countryName2 <- "United States"
+countryName3 <- "Nigeria"
+countryName4 <- "Germany"
+```
+
+###Country One
+
+We want to look at how population changes over time for the first country.  
+
+```{r} 
+country1 <- subset(gapMinder, country == countryName1)
+
+ggplot(country1, aes(year, pop, label = country)) + 
+  geom_path() +
+  ggtitle(countryName1) +
+  theme(plot.title = element_text(size = 15, face = "bold")) 
+```
+
+This second graph is looking at the correlation between life expectency (lifeExp) and income per person (gdpPercap). The size of the points on the plot represents total population.
+
+```{r}
+ggplot(country1, aes(gdpPercap, lifeExp, label = country, size = pop)) + 
+  geom_point() +
+  ggtitle(countryName1) +
+  theme(plot.title = element_text(size = 15, face = "bold"))
+```
+
+##Country 2
+
+We will do this for each country. Since the code is very similar, we will omit viewing it below.
+
+```{r, echo=FALSE}
+country2 <- subset(gapMinder, country == countryName2)
+
+ggplot(country2, aes(year, pop, label = country)) + 
+  geom_path() +
+  ggtitle(countryName2) +
+  theme(plot.title = element_text(size = 15, face = "bold"))
+```
+
+**Notes**: In a real report you can add information about the results of the analysis you are performing.  That way your code, analysis, questions, and results are all in one place. 
+
+```{r, echo = FALSE}
+ggplot(country2, aes(gdpPercap, lifeExp, label = country, size = pop)) + 
+  geom_point() +
+  ggtitle(countryName2) +
+  theme(plot.title = element_text(size = 15, face = "bold"))
+```
+
+##Country 3
+
+```{r, echo=FALSE}
+country3 <- subset(gapMinder, country == countryName3)
+
+ggplot(country3, aes(year, pop, label = country)) + 
+  geom_path() +
+  ggtitle(countryName3) +
+  theme(plot.title = element_text(size = 15, face = "bold"))
+```
+
+**Notes** Maybe a country has an unusual distribution and we want to label the graph with the year. We added `label = year` to the first line of the code below.  To display the text we also added the `geom_text(hjust = 1, vjust = 0, size = 5)` option.
+
+```{r}
+ggplot(country3, aes(lifeExp, gdpPercap, size = pop, label = year)) + 
+  geom_point() +
+  geom_text(hjust = 1, vjust = 0, size = 5) +
+  ggtitle(countryName3) +
+  theme(plot.title = element_text(size = 15, face = "bold"))
+```
+
+##Country 4
+
+```{r, echo=FALSE}
+country4 <- subset(gapMinder, country == countryName4)
+
+ggplot(country4, aes(year, pop, label = country)) + 
+  geom_path() +
+  ggtitle(countryName4) +
+  theme(plot.title = element_text(size=15, face = "bold"))
+```
+
+**Notes**: Or maybe try out labeling the year by adding color.
+
+```{r, echo = FALSE}
+ggplot(country4, aes(gdpPercap, lifeExp, label = country, size = pop, color = year)) + 
+  geom_point() +
+  ggtitle(countryName4) +
+  theme(plot.title = element_text(size=15, face = "bold"))
+```
+
+#All four countries
+
+Let's add all four countries together and to see how they compare.
+
+```{r}
+#Add subsetted data together
+allCountries <- rbind(country1, country2, country3, country4)
+
+#Notice the code for this is similar to when 
+#we are just looking at one country just 
+#with the added the color option
+ggplot(allCountries, aes(year, pop, color=country)) + 
+  geom_path() +
+  ggtitle("All four countries") +
+  theme(plot.title = element_text(lineheight=.8, face = "bold"))
+```
+
+What about what is occuring in a particular year?  You can change the year by changing the code in the `year == 2007` section.  To look at what years are possible use `allCountries$year`.
+
+```{r}
+ggplot(subset(allCountries, year == 2007),
+       aes(x = gdpPercap, y = lifeExp, fill = country, size=sqrt(pop/pi))) +
+       scale_x_log10(limits = c(150, 115000)) + 
+        ylim(c(16, 96)) +
+  geom_point(pch = 21, color = 'grey20') + 
+  scale_size_continuous(range=c(1,40)) +
+  coord_fixed(ratio = 1/43) +
+  theme_bw() +
+  guides(size=FALSE) +
+  theme(strip.text = element_text(size = rel(1.1)))
+```
+
+You can plot all the years at once also!
+
+```{r}
+ggplot(allCountries,
+       aes(x = gdpPercap, y = lifeExp, fill = country, size = sqrt(pop/pi))) +
+       scale_x_log10(limits = c(150, 115000)) + 
+        ylim(c(16, 96)) +
+  geom_point(pch = 21, color =   'grey20', alpha = 0.8) + 
+  scale_size_continuous(range = c(1,40)) +
+  coord_fixed(ratio = 1/43) +
+  theme_bw() +
+  guides(size = FALSE) +
+  theme(strip.text = element_text(size = rel(1.1)))
+```
+
+##Conclusions
+
+In a real report you can add conclusions about your analysis or future plans for the project. The best part is that if you want to change something in your report you don't have to redo every step. You can just make the change and re-print the report.

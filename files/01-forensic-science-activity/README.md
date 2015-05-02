@@ -1,4 +1,6 @@
-####Data files
+##README.md
+
+###Guide to files in `01-forensic-science-activity`
 
 - data.xlsx
   + spreadsheet called 'gapminderDataFiveYear.tsv' is the full dataset

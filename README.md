@@ -9,6 +9,10 @@
 
 The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/wiki/Template-for-lessons) guidelines.
 
+## General overview
+
+Students will learn the benefits of project and folder organization, and how these enable reproducibility and reusability. They will then complete an activity highlighting the structure of data files, emphasizing the importance of documenting any changes made. Finally, they will bring these two activities together in the context of a reproducible project workflow centered around using `knitr` in RStudio.
+
 ##01-file-organization
 - **DONE:** Add learning objectives to `01-file-organization.md`
 
@@ -49,6 +53,7 @@ The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-S
 - **TODO:** Jenny re: lecture; rest will wait to see concrete details on what group 1 produces re: an Rmd file)
     - [Link to work in progress](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/lecture02_literate-programming-via-rmarkdown.md).
 - **TODO:** Make slides on literature programming and knitr, working through Rmd file they used in the first session
+- **DONE:** Make interactive knitr document
 - **TODO:** Make instructor guidelines on how to run activity and add to `instructors.md`
 - Slides on what is literate program
 - simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
