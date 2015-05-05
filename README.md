@@ -9,59 +9,64 @@
 
 The [template](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/wiki/Template-for-lessons) guidelines.
 
-## General overview
+## Organization 1
 
 Students will learn the benefits of project and folder organization, and how these enable reproducibility and reusability. They will then complete an activity highlighting the structure of data files, emphasizing the importance of documenting any changes made. Finally, they will bring these two activities together in the context of a reproducible project workflow centered around using `knitr` in RStudio.
 
+At the begining of the session, students should be able
+
+- to use a spreadsheet program to generate a plot
+- to use a text editor (Word, Google Docs, etc.) to communicate
+- be familiar with Rstudio: Rstudio layout, running R commands, knitr, and basic ggplot syntax (from Intro section)
+
+At the end of the session students will be able to
+
+- Evaluate folder and file structure of a project.
+- Recognize common problems that occur in file organization.
+- Be able to identify what plain text is.  
+- Demonstrate the benefits of using plain text.
+- Distinguish between input and output files.
+- Integrate file naming standards to projects.
+- Distinguish between a spreadsheet formatted properly for later analysis in R and one formatted improperly
+- Be able to recognize common data entry errors and how to handle them
+- Be able to describe the concept of 'raw data' and why it is important
+- Differentiate between manual and programmatic file manipulation and know the pros and cons of each
+
 ##01-file-organization
-- **DONE:** Add learning objectives to `01-file-organization.md`
 
-### Activity 1
-- Forensic Science - Give the students collection of files: cryptic, similar file names to different files, poorly named, "superFINAL3.doc", spreadsheet format from really old excel or numbers, some graph images. Have them figure out whats going on. What's the raw data file, what's the script for the analysis. (Courtney, Kristina)
-- **TODO:** Make instructor guidelines on how to run activity and add to `instructors.md`
-- **TODO:** Figure out how to disseminate files. 
-- **DONE:** Make folder full of disorganized files from gapminder dataset
+### Activity - Forensic Science
 
-### Lecture (Jenny - @jennybc)
+[Link to forensic science lesson](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/01-file-organization.md)
 
-- algorithmic thinking (input vs. output, intermediate or derived = output AND input, something that converts input to output)
-- file naming (self-documentation, pay attention to implications for sorting)
-- data is raw (neither overwrite nor duplicate)
-- minimal input and output
-- file formats (text non proprietary, file extensions)
-- Concluding Discussion: is A better than B? why? here's C ... how could you improve it?
-- **TODO:** Create lecture.  
+This section starts with an activity to get the students thinking about "excavating" a folder in the future.  It is meant to get the students thinking about what file names, file organization, and file content and what these can tell us about a project. 
+
+### Lecture - File Naming 
+
+TO-DO (@jennybc): Create mini lecture on file naming.  Lecture drafts housed here: [https://github.com/jennybc/organization-and-naming](https://github.com/jennybc/organization-and-naming) 
 
 ##02-programatic-modification
 
-- **DONE:** Make instructor guidelines on how to run activity and add to `instructors.md`
-- **DONE:** Add learning objectives to `02-programatic-modification.md'*
+### Activity 2 - Cleaning up data in Excel
 
-### Activity 2 (Naupaka - @naupaka)
+[Link to programatic modification lesson](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/02-programatic-modification.md)
 
-- Broken excel data sheet: Show typical spreadsheet (`oceania_broken.xlsx`) and have students document changes they see as necessary before having it ready for analysis (writing each step in a text file) . Then go through all fixes needed and discuss why each is important.
-- Take away: If you can design away deficiences in data collection, DO! If too late for that, consider if this is a "one-time" cleaning or a potentially repeated task. Protip: it's probably the latter. Best practice is to clean with a script, not point and click.
-- **DONE:** Make small subset of gapminder data (Oceania)
-- **DONE:** Break spreadsheet in excel and document problems (for instructors)
-- Hands-on (Activity 2). Fix the broken excel data sheet. Everyone take notes on how to document
-- Demonstrate export to .csv
-- [Link to Excel data carpentry lesson]()
+In this section, the students will explore why it is beneficial to do programmatic modification by exploring what it takes to clean up a data file in Excel. 
+
+##Coffee Break
 
 ## 03-literate-programming - R via RStudio 
 
-- **NEED:** Find out if they've seen this IDE earlier and to what extent
-- **TODO:** Jenny re: lecture; rest will wait to see concrete details on what group 1 produces re: an Rmd file)
-    - [Link to work in progress](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/lecture02_literate-programming-via-rmarkdown.md).
-- **TODO:** Make slides on literature programming and knitr, working through Rmd file they used in the first session
-- **DONE:** Make interactive knitr document
-- **TODO:** Make instructor guidelines on how to run activity and add to `instructors.md`
-- Slides on what is literate program
-- simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
-- commenting that script (Why selecting sweden, not what the subset function is doing)
-- same actions but embedded in `.Rmd`
-- run both using interactive run, whole file source, Preview/Knit HTML
-- note what sorts of outputs are left behind
-- Wrap-up activity: which files can we delete and reproduce? Which files are inputs, outputs, converters of inputs to outputs?
+### Activity 
+
+**At the moment there seems to be a lot of overlap with Intro 1 Activity 2. Need to iron out how to proceed.**
+
+Using [countryPick4.rmd](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/files/03-literate-programming-activity/countryPick4.rmd) as a guide, have the students knit and modify. Guide through how to import data, filter to one country, make a plot and write it to file, commenting that script (Why selecting Germany, not what the subset function is doing), run both using interactive run.  Then the activity will go into what happens when you knit: Preview/Knit HTML, note what sorts of outputs are left behind, discuss input and output files. Which files can we delete and reproduce? Which files are inputs, outputs, converters of inputs to outputs? This section is meant for students to explore the power of writing reports in R. 
+
+TO-DO: Create Lesson guide and instructor guide. 
+
+###Lecture
+
+Wrap up lecuture: [Organizaing Files into Directories Draft](https://github.com/jennybc/organization-and-naming/tree/master/organization)
 
 ## Links relevant to items above
 
