@@ -77,5 +77,10 @@ After these have been fixed and the points have been discussed, compare the list
 
 Then, demonstrate exporting the xlsx file to csv. Describe why csv or other plain text data should always be used if possible for the reasons mentioned in Lesson 1.
 
+## 03 Literate Programming
+
+To start this activity, give a brief introduction to what literate programming is. 
+
+
 
 
