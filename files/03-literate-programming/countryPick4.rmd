@@ -107,7 +107,7 @@ ggplot(country3, aes(year, pop)) +
 **Notes** Maybe a country has an unusual distribution and we want to label the graph with the year. We added `label = year` to the first line of the code below.  To display the text we also added the `geom_text(hjust = 1, vjust = 0, size = 5)` option.
 
 ```{r}
-ggplot(country3, aes(lifeExp, gdpPercap, size = pop, label = year)) + 
+ggplot(country3, aes(gdpPercap, lifeExp, size = pop, label = year)) + 
   geom_point() +
   geom_text(hjust = 1, vjust = 0, size = 5) +
   ggtitle(countryName3) +
