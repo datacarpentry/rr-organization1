@@ -60,7 +60,7 @@ ggplot(country1, aes(year, pop)) +
   theme(plot.title = element_text(size = 15, face = "bold")) 
 ```
 
-This second graph is looking at the correlation between life expectency (lifeExp) and income per person (gdpPercap). The size of the points on the plot represents total population.
+This second graph is looking at the correlation between life expectancy (lifeExp) and GDP per person (gdpPercap). The size of the circles on the plot represents total population.
 
 ```{r}
 ggplot(country1, aes(gdpPercap, lifeExp, size = pop)) + 
@@ -71,7 +71,9 @@ ggplot(country1, aes(gdpPercap, lifeExp, size = pop)) +
 
 ##Country 2
 
-We will do this for each country. Since the code is very similar, we will omit viewing it below.
+We will do this for each country. Since the code is very similar, we
+will omit viewing it below by adding the named parameter `echo=FALSE`
+(`TRUE` is the default):
 
 ```{r, echo=FALSE}
 country2 <- subset(gapMinder, country == countryName2)
@@ -123,7 +125,7 @@ ggplot(country4, aes(year, pop)) +
   theme(plot.title = element_text(size=15, face = "bold"))
 ```
 
-**Notes**: Or maybe try out labeling the year by adding color.
+**Notes**: Or we can try out labeling the year by adding color.
 
 ```{r}
 ggplot(country4, aes(gdpPercap, lifeExp, size = pop, color = year)) + 
@@ -140,9 +142,8 @@ Let's add all four countries together and to see how they compare.
 #Add subsetted data together
 allCountries <- rbind(country1, country2, country3, country4)
 
-#Notice the code for this is similar to when 
-#we are just looking at one country just 
-#with the added the color option
+#Notice the code for this is similar to when we are just looking at one country
+#just with the added color option
 ggplot(allCountries, aes(year, pop, color=country)) + 
   geom_path() +
   ggtitle("All four countries") +
