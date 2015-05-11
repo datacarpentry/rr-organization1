@@ -153,32 +153,31 @@ ggplot(allCountries, aes(year, pop, color=country)) +
 What about what is occuring in a particular year?  You can change the year by changing the code in the `year == 2007` section.  To look at what years are possible use `allCountries$year`.
 
 ```{r}
-ggplot(subset(allCountries, year == 2007),
-       aes(x = gdpPercap, y = lifeExp, fill = country, size=sqrt(pop/pi))) +
-       scale_x_log10(limits = c(150, 115000)) + 
-        ylim(c(16, 96)) +
-  geom_point(pch = 21, color = 'grey20') + 
-  scale_size_continuous(range=c(1,40)) +
-  coord_fixed(ratio = 1/43) +
-  theme_bw() +
-  guides(size=FALSE) +
-  theme(strip.text = element_text(size = rel(1.1)))
+yr <- 2007
+ggplot(subset(allCountries, year == yr),
+       aes(x = gdpPercap, y = lifeExp, color = country, size = pop)) + 
+  scale_x_log10(limits = c(500, 90000)) + 
+  geom_point(alpha = 0.8) + 
+  scale_size_area(max_size = 14) +
+  theme_bw() + # black grid on white background
+  ggtitle(paste("All 4 countries in", yr)) +
+  theme(plot.title = element_text(size = 15, face = "bold"))
 ```
 
 You can plot all the years at once also!
 
 ```{r}
 ggplot(allCountries,
-       aes(x = gdpPercap, y = lifeExp, fill = country, size = sqrt(pop/pi))) +
-       scale_x_log10(limits = c(150, 115000)) + 
-        ylim(c(16, 96)) +
-  geom_point(pch = 21, color =   'grey20', alpha = 0.8) + 
-  scale_size_continuous(range = c(1,40)) +
-  coord_fixed(ratio = 1/43) +
-  theme_bw() +
-  guides(size = FALSE) +
-  theme(strip.text = element_text(size = rel(1.1)))
+       aes(x = gdpPercap, y = lifeExp, color = country, size = pop)) + 
+  scale_x_log10(limits = c(500, 90000)) +
+  ylim(c(30, 90)) +
+  geom_point(alpha = 0.8) + 
+  scale_size_area(max_size = 14) +
+  theme_bw() +  # black grid on white background
+  ggtitle("All 4 countries") +
+  theme(plot.title = element_text(size = 15, face = "bold"))
 ```
+
 
 ##Conclusions
 
