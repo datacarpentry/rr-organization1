@@ -54,7 +54,7 @@ We want to look at how population changes over time for the first country.
 ```{r} 
 country1 <- subset(gapMinder, country == countryName1)
 
-ggplot(country1, aes(year, pop, label = country)) + 
+ggplot(country1, aes(year, pop)) + 
   geom_path() +
   ggtitle(countryName1) +
   theme(plot.title = element_text(size = 15, face = "bold")) 
@@ -63,7 +63,7 @@ ggplot(country1, aes(year, pop, label = country)) +
 This second graph is looking at the correlation between life expectency (lifeExp) and income per person (gdpPercap). The size of the points on the plot represents total population.
 
 ```{r}
-ggplot(country1, aes(gdpPercap, lifeExp, label = country, size = pop)) + 
+ggplot(country1, aes(gdpPercap, lifeExp, size = pop)) + 
   geom_point() +
   ggtitle(countryName1) +
   theme(plot.title = element_text(size = 15, face = "bold"))
@@ -76,7 +76,7 @@ We will do this for each country. Since the code is very similar, we will omit v
 ```{r, echo=FALSE}
 country2 <- subset(gapMinder, country == countryName2)
 
-ggplot(country2, aes(year, pop, label = country)) + 
+ggplot(country2, aes(year, pop)) + 
   geom_path() +
   ggtitle(countryName2) +
   theme(plot.title = element_text(size = 15, face = "bold"))
@@ -85,7 +85,7 @@ ggplot(country2, aes(year, pop, label = country)) +
 **Notes**: In a real report you can add information about the results of the analysis you are performing.  That way your code, analysis, questions, and results are all in one place. 
 
 ```{r, echo = FALSE}
-ggplot(country2, aes(gdpPercap, lifeExp, label = country, size = pop)) + 
+ggplot(country2, aes(gdpPercap, lifeExp, size = pop)) + 
   geom_point() +
   ggtitle(countryName2) +
   theme(plot.title = element_text(size = 15, face = "bold"))
@@ -96,7 +96,7 @@ ggplot(country2, aes(gdpPercap, lifeExp, label = country, size = pop)) +
 ```{r, echo=FALSE}
 country3 <- subset(gapMinder, country == countryName3)
 
-ggplot(country3, aes(year, pop, label = country)) + 
+ggplot(country3, aes(year, pop)) + 
   geom_path() +
   ggtitle(countryName3) +
   theme(plot.title = element_text(size = 15, face = "bold"))
@@ -117,7 +117,7 @@ ggplot(country3, aes(lifeExp, gdpPercap, size = pop, label = year)) +
 ```{r, echo=FALSE}
 country4 <- subset(gapMinder, country == countryName4)
 
-ggplot(country4, aes(year, pop, label = country)) + 
+ggplot(country4, aes(year, pop)) + 
   geom_path() +
   ggtitle(countryName4) +
   theme(plot.title = element_text(size=15, face = "bold"))
@@ -125,8 +125,8 @@ ggplot(country4, aes(year, pop, label = country)) +
 
 **Notes**: Or maybe try out labeling the year by adding color.
 
-```{r, echo = FALSE}
-ggplot(country4, aes(gdpPercap, lifeExp, label = country, size = pop, color = year)) + 
+```{r}
+ggplot(country4, aes(gdpPercap, lifeExp, size = pop, color = year)) + 
   geom_point() +
   ggtitle(countryName4) +
   theme(plot.title = element_text(size=15, face = "bold"))
