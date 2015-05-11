@@ -109,7 +109,7 @@ ggplot(country3, aes(year, pop)) +
 ```{r}
 ggplot(country3, aes(gdpPercap, lifeExp, size = pop, label = year)) + 
   geom_point() +
-  geom_text(hjust = 1, vjust = 0, size = 5) +
+  geom_text(hjust = 1.3, vjust = 0, size = 3) +
   ggtitle(countryName3) +
   theme(plot.title = element_text(size = 15, face = "bold"))
 ```
