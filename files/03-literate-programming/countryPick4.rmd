@@ -146,6 +146,7 @@ allCountries <- rbind(country1, country2, country3, country4)
 #just with the added color option
 ggplot(allCountries, aes(year, pop, color=country)) + 
   geom_path() +
+  xlab("Year") + ylab("Population Size") +
   ggtitle("All four countries") +
   theme(plot.title = element_text(lineheight=.8, face = "bold"))
 ```
@@ -160,6 +161,7 @@ ggplot(subset(allCountries, year == yr),
   geom_point(alpha = 0.8) + 
   scale_size_area(max_size = 14) +
   theme_bw() + # black grid on white background
+  xlab("GDP per capita") + ylab("Life Expectancy") +
   ggtitle(paste("All 4 countries in", yr)) +
   theme(plot.title = element_text(size = 15, face = "bold"))
 ```
@@ -174,6 +176,7 @@ ggplot(allCountries,
   geom_point(alpha = 0.8) + 
   scale_size_area(max_size = 14) +
   theme_bw() +  # black grid on white background
+  xlab("GDP per capita") + ylab("Life Expectancy") +
   ggtitle("All 4 countries") +
   theme(plot.title = element_text(size = 15, face = "bold"))
 ```
