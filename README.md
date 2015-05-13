@@ -94,34 +94,57 @@ TO-DO: Create Lesson guide and instructor guide.
 
 Wrap up lecuture: [Organizaing Files into Directories Draft](https://github.com/jennybc/organization-and-naming/tree/master/organization)
 
-## Links relevant to items above
+## Resources and useful links
 
-#### UBC Library Research Data Management has good resources
+### Relevant scientific papers
 
-- File Naming Conventions & Best Practices <http://researchdata.library.ubc.ca/organize/>
-- File Format Considerations <http://researchdata.library.ubc.ca/format/>Links from Jenny relevant to our outline
+- EP White, E Baldridge, ZT Brym, KJ Locey, DJ McGlinn, SR
+  Supp (2013) "Nine simple ways to make it easier to (re)use your
+  data." Ideas in Ecology and Evolution 6(2):
+  1–10, 2013. doi:[10.4033/iee.2013.6b.6.f] _(in particular the
+  section "Use standard table formats")_
+- WS Noble (2009) "A Quick Guide to Organizing
+  Computational Biology Projects." PLoS Computational Biology 5 (7):
+  e1000424. doi:[10.1371/journal.pcbi.1000424]
 
-#### Naming practices
+### File naming and organization 
 
-- ISO 8601 standard for dates <http://en.wikipedia.org/wiki/ISO_8601>
-- File naming guides and suggestions
-    - http://www.exadox.com/en/articles/file-naming-convention-ten-rules-best-practice
-    - http://www.mnhs.org/preserve/records/electronicrecords/erfnaming.php
-    - http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/FileNameRules.htm
-    - http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/Rules.htm
-- Filename extension conventions <http://en.wikipedia.org/wiki/List_of_file_formats>
+- [File Naming Conventions & Best Practices] (UBC Library, Research
+  Data Management)
+- [File Format Considerations] (UBC Library, Research Data Management)
+- File naming guides and suggestions from
+    - [Minnesota Historical Society](http://www.mnhs.org/preserve/records/electronicrecords/erfnaming.php)
+    - [University of Edinburgh, Records Management](http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/Rules.htm)
+- Wikipedia entry on [list of filename extensions]
+- Wikipedia entry on [ISO 8601 standard for dates]
 
-#### Spreadsheet advice
+### Best practices for spreadsheets
 
-- Spreadsheet advice from UK's Government Statistical Service Good Practice Team [PDF](https://gss.civilservice.gov.uk/wp-content/uploads/2012/12/Releasing-statistics-in-spreadsheets-Good-practice-guidance.pdf)
+- [Good practice guidance on releasing statistics in spreadsheets] (UK Government)
 
-#### Paper with lots of good tips
+## License and Attribution
 
-- Nine simple ways to make it easier to (re)use your data by EP White, E Baldridge, ZT Brym, KJ Locey, DJ McGlinn, SR Supp. Ideas in Ecology and Evolution 6(2): 1–10, 2013. [doi:10.4033/iee.2013.6b.6.f] (http://library.queensu.ca/ojs/index.php/IEE/article/view/4608). See the section "Use standard table formats".
+- [Gapminder data](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
+- Processed and subset (population size, life expectancy, GDP per
+  capita; only every 5 years only starting 1952, only complete records)
+  [Gapminder data as R package](https://github.com/jennybc/gapminder). The [data-raw](https://github.com/jennybc/gapminder/tree/master/data-raw) sub-directory reveals the journey from Gapminder.org's Excel workbooks to increasingly clean and tidy data.
+    - clean dataset can be located in R in the following way (after
+      installing the package):
+        ```R
+        pathToTsv <- system.file("gapminder.tsv", package = "gapminder")
+        ```
+- All other lesson material is dedicated to the public domain under
+  the [CC Zero] waiver.
 
-## LICENSE and ATTRIBUTION  
 
-- Gapminder data [available here](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
-- Processed data via [@jennybc](https://github.com/jennybc), [R package available here](https://github.com/jennybc/gapminder). The [data-raw](https://github.com/jennybc/gapminder/tree/master/data-raw) sub-directory reveals the journey from Gapminder.org's Excel workbooks to increasingly clean and tidy data.
-    - cleanest data is in [07_gap-every-five-years.tsv](https://github.com/jennybc/gapminder/blob/master/data-raw/07_gap-every-five-years.tsv)
-    - this gives rise to the data.frame provided by the R package
+[@jennybc]: http://github.com/jennybc
+[@hlapp]: http://github.com/hlapp
+[@iamciera]: http://github.com/iamciera
+[File Naming Conventions & Best Practices]: http://researchdata.library.ubc.ca/organize
+[File Format Considerations]: http://researchdata.library.ubc.ca/format/
+[List of filename extensions]: http://en.wikipedia.org/wiki/List_of_file_formats
+[ISO 8601 standard for dates]: http://en.wikipedia.org/wiki/ISO_8601
+[Good practice guidance on releasing statistics in spreadsheets]: https://gss.civilservice.gov.uk/wp-content/uploads/2012/12/Releasing-statistics-in-spreadsheets-Good-practice-guidance.pdf
+[10.4033/iee.2013.6b.6.f]: http://dx.doi.org/10.4033/iee.2013.6b.6.f
+[10.1371/journal.pcbi.1000424]: http://dx.doi.org/10.1371/journal.pcbi.1000424
+[CC Zero]: https://creativecommons.org/publicdomain/zero/1.0/
