@@ -6,13 +6,13 @@ This section is split into three lessons:
 2. Progmatic Modification
 3. Literate Programming
 
-The section was created to introduce students how to organize and maintain files. This whole lesson takes place in a single directory, the next section Organization 2, moves into directory structure.  
+The section was created to introduce students to the reasoning behind organization and maintainence of files. At this point the whole lesson takes place in a single directory.
 
 ## 01 File Organization
 
 ### Activity 01 - Forensic Science - 30 minutes 
 
-This section start with an activity to get the students thinking about "excavating" a folder in the future.  It is meant to get the students thinking about what file names, file organization, and file content tell us about a project.  The students are given the folder [01-forensic-science](./files/01-forensic-science) and have the students try to answer questions, while going through the files. *Maybe give them a list of questions and have them try to answer, then discuss to start?- C.M.*
+This section starts with an activity to get the students thinking about "excavating" a folder in the future.  It is meant to get the students thinking about what file names, file organization, and file content and what these can tell us about a project.  The students are given the folder [01-forensic-science](./files/01-forensic-science).  Have the students try to answer questions, while going through the files. Encourage disscussion of strategies they have been taking that have worked or do well in their project management.
 
 **Questions**
 
@@ -26,7 +26,7 @@ This section start with an activity to get the students thinking about "excavati
 8.  Are the file formats appropriate?
 6.  What are some ways that would make answering these questions easier? Get them to start discussing how they are currently organizing their projects. 
 
-**Guide to the files** - This is in the [README.md](./files/01-forensic-science/README.md) file currently in the [01-forensic-science](./files/01-forensic-science) directory. This maybe should be removed before it is given to students. ;)
+**Guide to the files** - This is in the [README.md](./files/01-forensic-science/README.md) file currently in the [01-forensic-science](./files/01-forensic-science) directory. *This maybe should be removed before it is given to students.* ;)
 
 ### Lecture 01 - 30 minutes
 
@@ -36,7 +36,7 @@ This section start with an activity to get the students thinking about "excavati
 
 ### Activity 02 - Checking and Cleaning Data - 30 min
 
-This section considers a single data file with information on two countries, Australia and New Zealand. The purpose is to get students thinking about how to enter their data or two structure existing data for ease of use when working in R. They are given a file "oceania_broken.xlsx" and asked for figure out what is wrong with it. It is most effective if the instructor put this up on the screen and talks through the errors as the students recognize them. It also introduces the idea of additional files for storing metadata and tasks related to the data, both of which should be plain text, which follows along from the themes discussed in the first activity. **BEFORE** students start modifying the file, however, it is important to discuss the idea of raw data and never changing your only copy of something. So, first duplicate the file so that you can always refer back to the original if needed.
+This section considers a single data file with information on two countries, Australia and New Zealand. The purpose is to get students thinking about how to enter data or structure existing data for ease of use when working in R. They are given a file "oceania_broken.xlsx" and asked to figure out what is wrong with it. It is most effective if the instructor puts this up on the screen and talks through the errors as the students recognize them. It also introduces the idea of additional files for storing metadata and tasks related to the data, both of which should be plain text, which follows along from the themes discussed in the first activity. **BEFORE** students start modifying the file, however, it is important to discuss the idea of raw data and never changing your only copy of something. So, first duplicate the file so that you can always refer back to the original if needed.
 
 **The things that need to be fixed (and possible solutions) are as follows:**
 
@@ -76,4 +76,32 @@ This section considers a single data file with information on two countries, Aus
 After these have been fixed and the points have been discussed, compare the list students have made documenting the steps they took to fix the file. Discuss how this is similar to a script file that did the same things, but the script file could actually be run to make the changes in addition to documenting what was done. Also make the point that manually fixing files like we just did by hand is feasible for small data sets, but practically impossible for data sets of even moderate size. This is another reason why scripting these cleaning steps is useful. 
 
 Then, demonstrate exporting the xlsx file to csv. Describe why csv or other plain text data should always be used if possible for the reasons mentioned in Lesson 1.
+
+## 03 Literate Programming
+
+To start this activity, give a brief introduction to what literate programming is. 
+
+###Activity
+
+Have them open up [countryPick4](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/files/03-literate-programming-activity/countryPick4.rmd). This is where they can start alone exploring the script.  Running the code. Give them a around 10 minutes to just run the code and make graphs. 
+
+Guide them to line where they can change the countries: 
+
+    countryName1 <- "India"
+    countryName2 <- "United States"
+    countryName3 <- "Nigeria"
+    countryName4 <- "Germany"
+
+Show them how to look at the data to choose the countries
+
+    levels(gapMinder$country)
+
+After they are familar with the code have them knit a report.  Show them the different options.  
+
+**Exploring input and output files**
+
+
+
+
+
 
