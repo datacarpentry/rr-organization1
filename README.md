@@ -1,8 +1,10 @@
 # Organization 1
 
-##People
--  Jennifer Bryan: jenny@stat.ubc.ca
--  **Ciera Martinez** ciera.martinez@gmail.com
+## People
+
+-  Jennifer Bryan: [@jennybc]
+-  Hilmar Lapp: [@hlapp]
+-  **Ciera Martinez** [@iamciera]
 -  Kristina Riemer kristina.riemer@weecology.org
 -  Courtney Soderberg courtney@cos.io
 -  Naupaka Zimmerman naupaka@gmail.com
