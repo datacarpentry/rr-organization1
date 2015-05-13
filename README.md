@@ -32,7 +32,7 @@ At the end of the session students will be able to
 - Be able to describe the concept of 'raw data' and why it is important
 - Differentiate between manual and programmatic file manipulation and know the pros and cons of each
 
-##01-file-organization
+##01-file-naming
 
 ### Activity - Forensic Science
 
