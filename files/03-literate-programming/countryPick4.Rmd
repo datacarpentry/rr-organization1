@@ -3,16 +3,16 @@ title: "Pick four - comparing trends in population  over time"
 output: pdf_document
 ---
 
-##Purpose
+## Purpose
 
 The purpose of this report is to compare the population trends for four countries of your choosing.  In addition, this serves as an example of literate programming. Literate programming is a way to document how you performed your analysis. It serves as a guide to other to others (and your future self) how to reproduce your work. 
 
-##Required Libraries 
+## Required Libraries 
 ```{r}
 library(ggplot2)
 ```
 
-##Data
+## Data
 
 Always add as many details as possible about your data including where it came from, how it was processed, licensing, and where it can be accessed. 
 
@@ -25,7 +25,7 @@ Always add as many details as possible about your data including where it came f
 ```{r}
 gapMinder <- read.delim("gapminderDataFiveYear.tsv") 
 
-##Check data 
+### Check data 
 head(gapMinder) #First 10 lines of dataset
 dim(gapMinder) #number of rows and columns in data set
 ```
@@ -36,7 +36,7 @@ You can see what countries are available by looking at the how many unique categ
 levels(gapMinder$country)
 ```
 
-###Pick Four Countries
+### Pick Four Countries
 
 Now pick four countries that you are intrested in.  Just replace with the countries name below.
 
@@ -47,7 +47,9 @@ countryName3 <- "Nigeria"
 countryName4 <- "Germany"
 ```
 
-###Country One
+## Individual countries
+
+### Country One
 
 We want to look at how population changes over time for the first country.  
 
@@ -69,7 +71,7 @@ ggplot(country1, aes(gdpPercap, lifeExp, size = pop)) +
   theme(plot.title = element_text(size = 15, face = "bold"))
 ```
 
-##Country 2
+### Country Two
 
 We will do this for each country. Since the code is very similar, we
 will omit viewing it below by adding the named parameter `echo=FALSE`
@@ -93,7 +95,7 @@ ggplot(country2, aes(gdpPercap, lifeExp, size = pop)) +
   theme(plot.title = element_text(size = 15, face = "bold"))
 ```
 
-##Country 3
+### Country Three
 
 ```{r, echo=FALSE}
 country3 <- subset(gapMinder, country == countryName3)
@@ -114,7 +116,7 @@ ggplot(country3, aes(gdpPercap, lifeExp, size = pop, label = year)) +
   theme(plot.title = element_text(size = 15, face = "bold"))
 ```
 
-##Country 4
+### Country Four
 
 ```{r, echo=FALSE}
 country4 <- subset(gapMinder, country == countryName4)
@@ -134,7 +136,7 @@ ggplot(country4, aes(gdpPercap, lifeExp, size = pop, color = year)) +
   theme(plot.title = element_text(size=15, face = "bold"))
 ```
 
-#All four countries
+## All four countries
 
 Let's add all four countries together and to see how they compare.
 
@@ -182,6 +184,6 @@ ggplot(allCountries,
 ```
 
 
-##Conclusions
+## Conclusions
 
 In a real report you can add conclusions about your analysis or future plans for the project. The best part is that if you want to change something in your report you don't have to redo every step. You can just make the change and re-print the report.
