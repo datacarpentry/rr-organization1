@@ -1,4 +1,4 @@
-## 02-programatic-modification.md
+## 02-programmatic-modification.md
 
 ### Learning Objectives
 
@@ -22,3 +22,12 @@ Before you start modifying anything, make a copy of the `xlsx` file. Remember, t
 Next, once you've duplicated that file, open the copy and start going though the spreadsheet and correct any errors you observe. Every time you find and error and correct it, document *exactly* what you did, step by step, in a text file. Imagine that you are writing these instructions to yourself or to a colleague to document exactly what you did to this file, so that you could read the file and easily repeat the changes on the original copy if you needed to.
 
 We will be using this dataset in subsequent exercises, so it's important that you find and fix all of the problems with it now.
+
+*Eventually, the goal is for all modifications to data files to be done
+progrommatically--that is, completely through a scripted approach
+instead of by hand in a graphical user interface (GUI) such as Excel.
+This is a skill that takes time to learn and to get efficient with.
+Initially, it may take much longer than doing it by hand, but as you get
+more comfortable with the approach, it will become as fast or faster
+than making the same changes by hand, AND you now have a fully
+documented and reproducible set of instructions for cleaning your data.*
