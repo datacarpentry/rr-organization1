@@ -11,26 +11,35 @@
 
 ## Overview and learning objectives
 
-Students will learn the benefits of project and folder organization, and how these enable reproducibility and reusability. They will then complete an activity highlighting the structure of data files, emphasizing the importance of documenting any changes made. Finally, they will bring these two activities together in the context of a reproducible project workflow centered around using `knitr` in RStudio.
+Students will learn the benefits of project and folder organization,
+and how these enable reproducibility and reusability. They will then
+complete an activity highlighting the structure of data files,
+emphasizing the importance of documenting any changes made. Finally,
+they will bring these two activities together in the context of a
+reproducible project workflow centered around using `knitr` in
+RStudio.
 
 At the begining of the session, students should be able
 
 - to use a spreadsheet program to generate a plot
 - to use a text editor (Word, Google Docs, etc.) to communicate
-- be familiar with Rstudio: Rstudio layout, running R commands, knitr, and basic ggplot syntax (from Intro section)
+- be familiar with Rstudio: Rstudio layout, running R commands, knitr,
+  and basic ggplot syntax (from Intro section)
 
 At the end of the session students will be able to
 
 - Evaluate folder and file structure of a project.
 - Recognize common problems that occur in file organization.
-- Be able to identify what plain text is.  
+- Be able to identify what plain text is.
 - Demonstrate the benefits of using plain text.
 - Distinguish between input and output files.
 - Integrate file naming standards to projects.
-- Distinguish between a spreadsheet formatted properly for later analysis in R and one formatted improperly
+- Distinguish between a spreadsheet formatted properly for later
+  analysis in R and one formatted improperly
 - Be able to recognize common data entry errors and how to handle them
 - Be able to describe the concept of 'raw data' and why it is important
-- Differentiate between manual and programmatic file manipulation and know the pros and cons of each
+- Differentiate between manual and programmatic file manipulation and
+  know the pros and cons of each
 
 ##01-file-naming
 
@@ -38,7 +47,10 @@ At the end of the session students will be able to
 
 [Link to forensic science lesson](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/01-file-organization.md)
 
-This section starts with an activity to get the students thinking about "excavating" a folder in the future.  It is meant to get the students thinking about what file names, file organization, and file content and what these can tell us about a project. 
+This section starts with an activity to get the students thinking
+about "excavating" a folder in the future.  It is meant to get the
+students thinking about what file names, file organization, and file
+content and what these can tell us about a project.
 
 ### Lecture - File Naming 
 
@@ -50,7 +62,9 @@ TO-DO (@jennybc): Create mini lecture on file naming.  Lecture drafts housed her
 
 [Link to programatic modification lesson](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/02-programatic-modification.md)
 
-In this section, the students will explore why it is beneficial to do programmatic modification by exploring what it takes to clean up a data file in Excel. 
+In this section, the students will explore why it is beneficial to do
+programmatic modification by exploring what it takes to clean up a
+data file in Excel.
 
 ##Coffee Break
 
@@ -58,9 +72,21 @@ In this section, the students will explore why it is beneficial to do programmat
 
 ### Activity 
 
-**At the moment there seems to be a lot of overlap with Intro 1 Activity 2. Need to iron out how to proceed.**
+**Note: could overlap in part with Intro, Activity 2; may require
+  on-the-fly adjustments in response to that.**
 
-Using [countryPick4.rmd](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/files/03-literate-programming-activity/countryPick4.rmd) as a guide, have the students knit and modify. Guide through how to import data, filter to one country, make a plot and write it to file, commenting that script (Why selecting Germany, not what the subset function is doing), run both using interactive run.  Then the activity will go into what happens when you knit: Preview/Knit HTML, note what sorts of outputs are left behind, discuss input and output files. Which files can we delete and reproduce? Which files are inputs, outputs, converters of inputs to outputs? This section is meant for students to explore the power of writing reports in R. 
+Students "knit" and modify. Using
+[countryPick4.Rmd](files/03-literate-programming-activity/countryPick4.Rmd)
+as a template, students learn how to import data, filter to one
+country, make a plot, write it to file, and comment data choices.
+Then the activity will illustrate what happens when you knit:
+- Preview/Knit HTML, note what sorts of outputs are left behind.
+- Discuss input and output files.
+- Which files can we delete and reproduce? Which files are inputs,
+outputs, converters of inputs to outputs?
+
+This section is meant for students to explore the power of writing
+reports in R.
 
 TO-DO: Create Lesson guide and instructor guide. 
 
