@@ -41,11 +41,11 @@ At the end of the session students will be able to
 - Differentiate between manual and programmatic file manipulation and
   know the pros and cons of each
 
-##01-file-naming
+## File organization
 
 ### Activity - Forensic Science
 
-[Link to forensic science lesson](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/01-file-organization.md)
+Lesson: [01-file-organization](01-file-organization.md)
 
 This section starts with an activity to get the students thinking
 about "excavating" a folder in the future.  It is meant to get the
@@ -56,19 +56,19 @@ content and what these can tell us about a project.
 
 TO-DO (@jennybc): Create mini lecture on file naming.  Lecture drafts housed here: [https://github.com/jennybc/organization-and-naming](https://github.com/jennybc/organization-and-naming) 
 
-##02-programatic-modification
+## Documenting data modifications
+
+Lesson: [02-programatic-modification](02-programatic-modification.md)
 
 ### Activity 2 - Cleaning up data in Excel
-
-[Link to programatic modification lesson](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/02-programatic-modification.md)
 
 In this section, the students will explore why it is beneficial to do
 programmatic modification by exploring what it takes to clean up a
 data file in Excel.
 
-##Coffee Break
+## Literate programming - R via RStudio 
 
-## 03-literate-programming - R via RStudio 
+Lesson: [03-literate-programming](03-literate-programming.md)
 
 ### Activity 
 
@@ -90,7 +90,7 @@ reports in R.
 
 TO-DO: Create Lesson guide and instructor guide. 
 
-###Lecture
+### Lecture
 
 Wrap up lecuture: [Organizaing Files into Directories Draft](https://github.com/jennybc/organization-and-naming/tree/master/organization)
 
