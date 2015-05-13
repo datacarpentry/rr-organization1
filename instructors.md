@@ -3,7 +3,7 @@
 This section is split into three lessons:
 
 1. File Organization
-2. Progmatic Modification
+2. Programmatic Modification
 3. Literate Programming
 
 The section was created to introduce students to the reasoning behind organization and maintainence of files. At this point the whole lesson takes place in a single directory.
