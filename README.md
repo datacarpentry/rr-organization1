@@ -130,9 +130,11 @@ Wrap up lecuture: [Organizaing Files into Directories Draft](https://github.com/
   [Gapminder data as R package](https://github.com/jennybc/gapminder). The [data-raw](https://github.com/jennybc/gapminder/tree/master/data-raw) sub-directory reveals the journey from Gapminder.org's Excel workbooks to increasingly clean and tidy data.
     - clean dataset can be located in R in the following way (after
       installing the package):
+
         ```R
         pathToTsv <- system.file("gapminder.tsv", package = "gapminder")
         ```
+
 - All other lesson material is dedicated to the public domain under
   the [CC Zero] waiver.
 
