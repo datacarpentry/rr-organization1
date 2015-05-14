@@ -9,7 +9,7 @@
 
 ## Activity 02 - Checking and Cleaning Data
 
-Please download the Excel file called `oceania_broken.xlsx` and open it.
+Please download the Excel file called `oceania_uk.xlsx` and open it.
 
 Depending on what type of science you do, data may come from instruments, online databases, or transcribed from field or lab notebooks into spreadsheets. Thinking about how to format you data in those spreadsheets to ensure that it is *machine readable* (that is, easily parseable by an algorithm or script) and *well documented for humans* is important.
 
@@ -20,8 +20,6 @@ In R, the primary data type used most often is called a `data frame`. This is si
 Before you start modifying anything, make a copy of the `xlsx` file. Remember, this is our only copy at the moment, and it's important NEVER to modify by hand or by script your only copy of a file, since you may need to start over at some point in the future.
 
 Next, once you've duplicated that file, open the copy and start going though the spreadsheet and correct any errors you observe. Every time you find and error and correct it, document *exactly* what you did, step by step, in a text file. Imagine that you are writing these instructions to yourself or to a colleague to document exactly what you did to this file, so that you could read the file and easily repeat the changes on the original copy if you needed to.
-
-We will be using this dataset in subsequent exercises, so it's important that you find and fix all of the problems with it now.
 
 *Eventually, the goal is for all modifications to data files to be done
 progrommatically--that is, completely through a scripted approach
