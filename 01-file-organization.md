@@ -7,11 +7,11 @@
 *  Be able to identify what plain text is.
 *  Demonstrate the benefits of using plain text.
 *  Distinguish between input and output files.
-*  Integrate file naming standards to projects.
+*  Integrate file naming standards into projects.
 
 ## Activity 01 - Forensic Science
 
-Please download the directory: `file-org/forensic-science`
+Please download the directory `[forensic-science](files/file-org/forensic-science)`
 
 Often times in research you start with a given set of files from an
 experiment or study that was performed at some point in the past. To
