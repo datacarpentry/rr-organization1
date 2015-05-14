@@ -47,6 +47,7 @@ file.header <- scan(datafile,
                     nlines = 2)
 file.header
 
+# not sure whether this is capturing all?
 writeLines(file.header[1], metafile) # We only want what is in the first cell
 ```
 
