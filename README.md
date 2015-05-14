@@ -54,7 +54,10 @@ content and what these can tell us about a project.
 
 ### Lecture - File Naming 
 
-TO-DO (@jennybc): Create mini lecture on file naming.  Lecture drafts housed here: [https://github.com/jennybc/organization-and-naming](https://github.com/jennybc/organization-and-naming) 
+~~TO-DO~~ DONE (@jennybc): Create mini lectures on file naming and organization. Slides can be found here, in Keynote format, in PDF, and as individual PNGs (scroll down through the README):
+
+  * [files/file-org/organization-slides](files/file-org/organization-slides)
+  * [files/file-org/naming-slides](files/file-org/naming-slides)
 
 ## Documenting data modifications
 
@@ -69,6 +72,8 @@ data file in Excel.
 ## Literate programming - R via RStudio 
 
 Lesson: [03-literate-programming](03-literate-programming.md)
+
+Slides: [files/lit-prog/lit-prog-slides](files/lit-prog/lit-prog-slides)
 
 ### Activity 
 
@@ -92,7 +97,14 @@ TO-DO: Create Lesson guide and instructor guide.
 
 ### Lecture
 
-Wrap up lecuture: [Organizaing Files into Directories Draft](https://github.com/jennybc/organization-and-naming/tree/master/organization)
+Wrap up lecuture: Organizaing Files into Directories
+
+*Repeated from above, since I'm not sure the order instructors want*
+Mini lectures on file naming and organization. Slides can be found here, in Keynote format, in PDF, and as individual PNGs (scroll down through the README):
+
+  * [files/file-org/organization-slides](files/file-org/organization-slides)
+  * [files/file-org/naming-slides](files/file-org/naming-slides)
+
 
 ## Resources and useful links
 
