@@ -11,6 +11,6 @@
   programming 
 * Identify intermediary files, and thus which files can be regenerated.
 
-Interactive knitr document: [countryPick4](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/files/03-literate-programming-activity/countryPick4.rmd).
+## Activity 03 - Explore a working `knitr` document
 
-Lecuture: Wrap up lecuture: [Organizaing Files into Directories Draft](https://github.com/jennybc/organization-and-naming/tree/master/organization)
+Interactive knitr document: [countryPick4.Rmd](files/lit-prog/countryPick4.Rmd).
