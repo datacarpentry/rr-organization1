@@ -1,8 +1,8 @@
 data <- read.csv(file = "data1_full.csv", header = T)
 
-sub_data <- data[data$country == "Canada" & data$year < 1980, ]
+sub_data <- data[data$country == "Canada" & data$year <= 1982, ]
 
-write.csv(Canada, file = "/Users/csoderbe/rr-organization1/files/Canada.csv", row.names = FALSE)
+write.csv(Canada, file = "Canada.csv", row.names = FALSE)
 
 library(ggplot2)
 ggplot(data = sub_data, aes(x = year, y = lifeExp)) +
