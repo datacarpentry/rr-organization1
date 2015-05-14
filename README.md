@@ -73,6 +73,8 @@ data file in Excel.
 
 Lesson: [03-literate-programming](03-literate-programming.md)
 
+Slides: [files/lit-prog/lit-prog-slides](files/lit-prog/lit-prog-slides)
+
 ### Activity 
 
 **Note: could overlap in part with Intro, Activity 2; may require
