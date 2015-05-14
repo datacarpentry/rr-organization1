@@ -84,8 +84,8 @@ if needed.
 
 **Things that need to be fixed:**
 
-1. Delete the first two rows (rows 1-2). Move row 1 it to a
-   `oceania_metadata.txt` file.
+1. Delete the first three rows (rows 1-3). Move rows 1 and 2 it to a
+   `oceania-uk-metadata.txt` file.
     * *Point to make: First row should be column headers, but we don't
       want to lose metadata, so instead move it to a separate text
       file. This makes the file sort alphabetically with the data file,
