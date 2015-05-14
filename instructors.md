@@ -219,5 +219,4 @@ Purpose: Explore input and output files
 *  Which file can you delete while still being able to fully reproduce the result? *You can always delete which ever file was created after knitting, in this case the `.html` file*
 *  What are all the files that were needed to re-create the HTML file? *In this case 1. `gapminderDataFiveYear.tsv` 2. the `.Rmd` file.
 
-
 This material was adapted from an activity by [Jenny Bryan](http://stat545-ubc.github.io/block007_first-use-rmarkdown.html).
