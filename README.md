@@ -58,7 +58,7 @@ TO-DO (@jennybc): Create mini lecture on file naming.  Lecture drafts housed her
 
 ## Documenting data modifications
 
-Lesson: [02-programatic-modification](02-programatic-modification.md)
+Lesson: [02-programatic-modification](02-documenting-data-modification.md)
 
 ### Activity 2 - Cleaning up data in Excel
 
