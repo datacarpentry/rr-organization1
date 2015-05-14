@@ -1,11 +1,15 @@
-##03-literate-programming.md 
+# Literate programming 
 
-###Learning Objectives
+## Learning Objectives
 
-- Slides on what is literate program
-- simple `.R` script, e.g. import data, filter to one country, make a plot and write it to file
-- Identify Which files are inputs, outputs, converters of inputs to outputs?
-- Identify which files can be deleted for reproduction. 
+* Describe the concept of literate programming.
+* Contrast literate programming with stand-alone scripts and
+  stand-alone documentation.
+* Relate literate programming to reproducible generation of scientific
+  figures and analysis results.
+* Recognize benefits of and opportunities for applying literate
+  programming 
+* Identify intermediary files, and thus which files can be regenerated.
 
 Interactive knitr document: [countryPick4](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/files/03-literate-programming-activity/countryPick4.rmd).
 
