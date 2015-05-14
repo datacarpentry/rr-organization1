@@ -189,37 +189,53 @@ Brief Introduction touching on main motivation points.
    experiments
 3. Functions as a scientific notebook
 4. The data, figures and rationale for each project are all in one
-   place and can be copied and edited when writing your papers. Saving
-   you time!!
+   place and can be copied and edited when writing your papers. This
+   saves time!!
 
 ### Activity
 
 **Part 1 - Open Document and Run Code**
 
-The purpose of part 1 is just to get them to refresh what they learned in intro-02 exercises: opening a file, running code, understanding the r-code tags, re-oriented to the Rstudio environment, ect. 
+The purpose of part 1 is just to get learners to refresh what they
+learned in intro-02 exercises: opening a file, running code,
+understanding the r-code tags, re-oriented to the Rstudio environment,
+ect.
 
-Ideally they can download the entire [03-literate-programming folder](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/files/03-literate-programming-activity/), where they can work within this directory, the root being the working directory. Have them open up the [countryPick4.Rmd](https://github.com/Reproducible-Science-Curriculum/rr-organization1/blob/master/files/03-literate-programming-activity/countryPick4.rmd) file. Advise them to read through the `.Rmd` file and run each code chunk. 
+Ideally they can download the entire
+[literate programming folder](files/lit-prog/) and work within this
+directory as the working directory. Have learners open up the
+[countryPick4.Rmd](files/lit-prog/countryPick4.Rmd) file. Advise
+them to read through the `.Rmd` file and run each code chunk.
 
-Those that are already familiar with RStudio can start manipulating the code right away. Guide them to line where they can change the countries and let them play with running the different: 
+Those that are already familiar with RStudio can start manipulating
+the code right away. Guide learners to the line where they can change
+the countries and let learners play with running different choices:
 
+```r
     countryName1 <- "India"
     countryName2 <- "United States"
     countryName3 <- "Nigeria"
     countryName4 <- "Germany"
+```
 
-Show them how to look at the data to choose the countries
+Show learners how to look at the data to choose the countries
 
+```r
     levels(gapMinder$country)
+```
 
-This is where they can start alone exploring the script.  Running the code. Give them a around 10 to 20 minutes to just run the code and make graphs.
+This is where they can start alone exploring the script.  Running the
+code. Give learners a around 10 to 20 minutes to just run the code and
+make graphs.
 
 **Step 2: Save new report and knit**
 
 Purpose: Explore input and output files
 
-*  What is the input file? *.Rmd*  
-*  What is the output file? *.html*
-*  Which file can you delete while still being able to fully reproduce the result? *You can always delete which ever file was created after knitting, in this case the `.html` file*
-*  What are all the files that were needed to re-create the HTML file? *In this case 1. `gapminderDataFiveYear.tsv` 2. the `.Rmd` file.
-
-This material was adapted from an activity by [Jenny Bryan](http://stat545-ubc.github.io/block007_first-use-rmarkdown.html).
+* What is the input file? *.Rmd*
+* What is the output file? *.html*
+* Which file can you delete while still being able to fully reproduce
+  the result? *You can always delete which ever file was created after
+  knitting, in this case the `.html` file*
+* What are all the files that were needed to re-create the HTML file?
+  *In this case the `gapminderDataFiveYear.tsv` and the `.Rmd` file.*
