@@ -190,18 +190,18 @@ graphs.
 
 Guide them to the line where they can change the countries: 
 
-    ```r
+```r
     countryName1 <- "India"
     countryName2 <- "United States"
     countryName3 <- "Nigeria"
     countryName4 <- "Germany"
-    ```
+```
     
 Show them how to look at the data to choose the countries
 
-    ```r
+```r
     levels(gapMinder$country)
-    ```
+```
 
 After they are familar with the code have them knit a report.  Show
 them the different options.
