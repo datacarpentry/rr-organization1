@@ -55,9 +55,13 @@ have worked or do well in their project management.
 - `draft_graph.docx` made in excel using data from cameroon and then
   pasted into a Word file
 
+### Lecture - File Organization
+
+See [File organization slides](slides/organization-slides/).
+
 ### Lecture - File Naming 
 
-TO-DO (@jennybc)
+See [File naming slides](slides/naming-slides/).
 
 ## Documenting data modification
 
@@ -179,6 +183,8 @@ reasons mentioned in Lesson 1.
 ## Literate Programming
 
 **Estimated Total Time**: 1 hour 25 min
+
+[Literate programming intro slides](slides/lit-prog-slides/)
 
 ### Introduction / Motivation
 
