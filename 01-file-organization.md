@@ -11,7 +11,7 @@
 
 ## Activity 01 - Forensic Science
 
-Please download the directory `[forensic-science](files/file-org/forensic-science)`
+Please download the directory [forensic-science](files/file-org/forensic-science).
 
 Often times in research you start with a given set of files from an
 experiment or study that was performed at some point in the past. To
