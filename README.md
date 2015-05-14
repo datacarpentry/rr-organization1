@@ -54,10 +54,11 @@ content and what these can tell us about a project.
 
 ### Lecture - File Naming 
 
-~~TO-DO~~ DONE (@jennybc): Create mini lectures on file naming and organization. Slides can be found here, in Keynote format, in PDF, and as individual PNGs (scroll down through the README):
+Slides can be found here, in Keynote format, in PDF, and as individual
+PNGs (scroll down through the README):
 
-  * [files/file-org/organization-slides](files/file-org/organization-slides)
-  * [files/file-org/naming-slides](files/file-org/naming-slides)
+  * [File organization](slides/organization-slides)
+  * [File naming](slides/naming-slides)
 
 ## Documenting data modifications
 
@@ -71,9 +72,8 @@ data file in Excel.
 
 ## Literate programming - R via RStudio 
 
-Lesson: [03-literate-programming](03-literate-programming.md)
-
-Slides: [files/lit-prog/lit-prog-slides](files/lit-prog/lit-prog-slides)
+* Lesson: [03-literate-programming](03-literate-programming.md)
+* [Introductory slides](slides/lit-prog-slides)
 
 ### Activity 
 
@@ -81,29 +81,17 @@ Slides: [files/lit-prog/lit-prog-slides](files/lit-prog/lit-prog-slides)
   on-the-fly adjustments in response to that.**
 
 Students "knit" and modify. Using
-[countryPick4.Rmd](files/03-literate-programming-activity/countryPick4.Rmd)
-as a template, students learn how to import data, filter to one
-country, make a plot, write it to file, and comment data choices.
-Then the activity will illustrate what happens when you knit:
+[countryPick4.Rmd](files/lit-prog/countryPick4.Rmd) as a template,
+students learn how to import data, filter to one country, make a plot,
+write it to file, and comment data choices.  Then the activity will
+illustrate what happens when you knit:
 - Preview/Knit HTML, note what sorts of outputs are left behind.
 - Discuss input and output files.
 - Which files can we delete and reproduce? Which files are inputs,
-outputs, converters of inputs to outputs?
+  outputs, converters of inputs to outputs?
 
 This section is meant for students to explore the power of writing
 reports in R.
-
-TO-DO: Create Lesson guide and instructor guide. 
-
-### Lecture
-
-Wrap up lecuture: Organizaing Files into Directories
-
-*Repeated from above, since I'm not sure the order instructors want*
-Mini lectures on file naming and organization. Slides can be found here, in Keynote format, in PDF, and as individual PNGs (scroll down through the README):
-
-  * [files/file-org/organization-slides](files/file-org/organization-slides)
-  * [files/file-org/naming-slides](files/file-org/naming-slides)
 
 
 ## Resources and useful links
