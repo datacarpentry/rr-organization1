@@ -1,6 +1,6 @@
 # Literate programming 
 
-### Pre-requisites
+## Pre-requisites
 - Familarity with RStudio enviroment
 - Knowledge of markdown and Rmarkdown syntax
 
@@ -50,7 +50,7 @@ formats for distribution. Depending on the language you can combine
 the same or similar tools for creating literate programming reports,
 for example for Python reports, IPython is a powerful option.
 
-#### Step 1: Open `.Rmd` Document and Run Code
+### Step 1: Open `.Rmd` Document and Run Code
 
 Open [countryPick4.Rmd](files/lit-prog/countryPick4.rmd).  This is a
 report exploring population size of four countries.
@@ -67,7 +67,7 @@ each of the code chunks.
 * _Stretch Goal:_ If you are familiar with R and `ggplot`, try adding a
   fifth country to this report.
 
-#### Step 2: Save new report and knit
+### Step 2: Save new report and knit
 
 Click on “Knit HTML” or do File > Knit. RStudio should display a
 preview of the resulting HTML. Also look at the file browser (which
@@ -82,7 +82,7 @@ resulting HTML `foo.html`.
   reproduce the result? What are all the files that are needed to
   re-create the `.html` file?
 
-#### Step 3: Develop your report
+### Step 3: Develop your report
 
 In this incremental manner, develop a new report. Add new code to this
 file. Refine it. Add new chunks. Re-run the report frequently to make
@@ -96,7 +96,7 @@ Render the whole document often to catch errors when they’re easy to
 pinpoint and fix. Save often every time you reach a point that you’d
 like as a “fall back” position.
 
-#### Step 4: Publishing your report
+### Step 4: Publishing your report
 
 Although not required, one of most accessible and often easiest ways
 to share Rmarkdown reports is over the web. [Rpubs](http://rpubs.com/)
