@@ -18,6 +18,12 @@ No additional manipulation has been done yet.
 ## Loading libraries and other setup
 
 ```{r}
+library(testthat)
+```
+
+## Reading in the data
+
+```{r}
 # the name of the file containing the dataset:
 datafile <- "oceania-uk-data.csv"
 
@@ -80,11 +86,6 @@ Fix the typo in the country column and remove excess factor levels:
 ```{r}
 data.in$country[data.in$country == "Australa"] <- "Australia"
 data.in$country <- factor(data.in$country)
-
-# Test: we should be left with 2 factors now in country:
-if (nlevels(data.in$country) > 2) {
-  cat("Data integrity alert: more than 2 factors for country")
-}
 ```
 
 Fix the typo in the population column:
@@ -94,6 +95,36 @@ pop.typo <- strsplit(as.character(data.in$pop[pop.is.typo]),"")[[1]]
 pop.typo[pop.typo == "O"] <- "0"
 data.in$pop <- as.numeric(as.character(data.in$pop))
 data.in$pop[pop.is.typo] <- as.numeric(paste(pop.typo,collapse=""))
+```
+
+## Data integrity tests
+
+We should have 6 columns with specific names.
+
+```{r error=TRUE}
+expect_that(data.in,
+            has_names(c("country", "year", "pop", "continent",
+                        "lifeExp", "gdpPercap", "Notes")))
+```
+
+We should be left with 2 factors in country.
+
+```{r error=TRUE}
+expect_that(nlevels(data.in$country), equals(2))
+```
+
+_Continent_ shouldn't have any missing values.
+
+```{r error=TRUE}
+expect_that(any(is.na(data.in$continent)), is_false(),
+            info="column continent has missing data")
+```
+
+_Populuation_ needs to be numeric.
+
+```{r error=TRUE}
+expect_that(is.numeric(data.in$pop), is_true(),
+            info="population size isn't numeric")
 ```
 
 ## Write sanitized data to csv
