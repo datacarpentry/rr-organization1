@@ -14,17 +14,12 @@
 Students will learn the benefits of project and folder organization,
 and how these enable reproducibility and reusability. They will then
 complete an activity highlighting the structure of data files,
-emphasizing the importance of documenting any changes made. Finally,
-they will bring these two activities together in the context of a
-reproducible project workflow centered around using `knitr` in
-RStudio.
+emphasizing the importance of documenting any changes made. 
 
 At the begining of the session, students should be able
 
 - to use a spreadsheet program to generate a plot
 - to use a text editor (Word, Google Docs, etc.) to communicate
-- be familiar with Rstudio: Rstudio layout, running R commands, knitr,
-  and basic ggplot syntax (from Intro section)
 
 At the end of the session students will be able to
 
@@ -34,12 +29,6 @@ At the end of the session students will be able to
 - Demonstrate the benefits of using plain text.
 - Distinguish between input and output files.
 - Integrate file naming standards to projects.
-- Distinguish between a spreadsheet formatted properly for later
-  analysis in R and one formatted improperly
-- Be able to recognize common data entry errors and how to handle them
-- Be able to describe the concept of 'raw data' and why it is important
-- Differentiate between manual and programmatic file manipulation and
-  know the pros and cons of each
 
 ## File organization
 
@@ -59,40 +48,6 @@ PNGs (scroll down through the README):
 
   * [File organization](slides/organization-slides)
   * [File naming](slides/naming-slides)
-
-## Documenting data modifications
-
-Lesson: [02-programatic-modification](02-documenting-data-modification.md)
-
-### Activity 2 - Cleaning up data in Excel
-
-In this section, the students will explore why it is beneficial to do
-programmatic modification by exploring what it takes to clean up a
-data file in Excel.
-
-## Literate programming - R via RStudio 
-
-* Lesson: [03-literate-programming](03-literate-programming.md)
-* [Introductory slides](slides/lit-prog-slides)
-
-### Activity 
-
-**Note: could overlap in part with Intro, Activity 2; may require
-  on-the-fly adjustments in response to that.**
-
-Students "knit" and modify. Using
-[countryPick4.Rmd](files/lit-prog/countryPick4.Rmd) as a template,
-students learn how to import data, filter to one country, make a plot,
-write it to file, and comment data choices.  Then the activity will
-illustrate what happens when you knit:
-- Preview/Knit HTML, note what sorts of outputs are left behind.
-- Discuss input and output files.
-- Which files can we delete and reproduce? Which files are inputs,
-  outputs, converters of inputs to outputs?
-
-This section is meant for students to explore the power of writing
-reports in R.
-
 
 ## Resources and useful links
 
@@ -117,10 +72,6 @@ reports in R.
     - [University of Edinburgh, Records Management](http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/Rules.htm)
 - Wikipedia entry on [list of filename extensions]
 - Wikipedia entry on [ISO 8601 standard for dates]
-
-### Best practices for spreadsheets
-
-- [Good practice guidance on releasing statistics in spreadsheets] (UK Government)
 
 ## License and Attribution
 
