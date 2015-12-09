@@ -75,19 +75,7 @@ output:
 or data-clean/data-clean-notes<br>
 to show where you would keep a file that lists what you've done, what steps you've taken, to clean your data.
 
-#### Slide 11
-1. Example directory structure.
-
-#### Slide 12
-1. Example directory structure.
-
-#### Slide 13
-1. Example directory structure.
-
-#### Slide 14
-1. Example directory structure.
-
-#### Slide 15
+#### Slide 11-12-13-14-15
 1. Example directory structure.
 
 #### Slide 16
