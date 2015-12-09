@@ -87,7 +87,6 @@ to show where you would keep a file that lists what you've done, what steps you'
 #### Slide 14
 1. Example directory structure.
 
-<div class="boxed">
 #### Slide 15
 1. Example directory structure.
 
