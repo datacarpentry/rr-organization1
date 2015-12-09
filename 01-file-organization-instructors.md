@@ -9,13 +9,11 @@ output:
 
 ## Notes to use with the File Organization Slides ...
 
-## Overview / Goals / Objectives of Slides (or lesson)
+!<-- Overview / Goals / Objectives of File Organization Slides (or lesson)
 ## Notes for each slide
-## Include ways to elicit conversation / input
+## Include ways to elicit conversation / input -->
 
-## File Organization
-
-## Goals
+## Overview / Goals / Objectives
 - Highlight common information management snafus
 - Show personal information management strategies that are fine for an individual, but make file sharing, 
   automated processing very difficult or impossible.
@@ -28,31 +26,29 @@ output:
     - Ask them (make a list, potentially) for how they solved these, or are planning to solve.
     
 ## Exercise: Share your file organization nightmares (5 - 10 mins max)
-### If time: Ask them to share how they solved or are planning to solve (what methods, what software)?
+#### If time: Ask them to share how they solved or are planning to solve (what methods, what software)?
 
 ## From the slides:
 ### Key Points
 
 <div class="boxed">
-#### Slide 2
+Slide 2
 1. Data, we are inundated, and there's more every day.
 2. We may be experiencing more data than we know how to work with effectively, reproducibly.
-
 * Opportunity to bring in any current topic or relevant news items.
 </div>
 
 <div class="boxed">
-#### Slide 3
+Slide 3
 1. With the advent of personal computing, old limits for how to name and organize directories are gone.
-1a. No more 8.3 file-naming, for example.
+* No more 8.3 file-naming, for example.
 2. This makes it easier in some ways. We can name and organize directories and files anyway that we want to.
 3. But, for sharing data, and writing scripts that evaluate (or analyze) data in files automatically, files need to be
     structured, organized, and methodically named.
 4. They also need to be organized and structured -- for one's mental sanity, and of course -- reproducibility!
 5. This can take some forethought
-5a. either because you are lucky enough to be starting from scratch OR
-5b. because you are trying to standardize an existing set of data files.
-
+* either because you are lucky enough to be starting from scratch OR
+* because you are trying to standardize an existing set of data files.
 </div>
 
 <div class="boxed">
