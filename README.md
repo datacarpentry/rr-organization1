@@ -1,14 +1,5 @@
 # Organization 1
 
-## People
-
--  Jennifer Bryan: [@jennybc]
--  Hilmar Lapp: [@hlapp]
--  **Ciera Martinez** [@iamciera]
--  Kristina Riemer kristina.riemer@weecology.org
--  Courtney Soderberg courtney@cos.io
--  Naupaka Zimmerman naupaka@gmail.com
-
 ## Overview and learning objectives
 
 Students will learn the benefits of project and folder organization,
@@ -73,6 +64,12 @@ PNGs (scroll down through the README):
 - Wikipedia entry on [list of filename extensions]
 - Wikipedia entry on [ISO 8601 standard for dates]
 
+## People and credits
+
+This lesson was first created at the [1. Reproducible Science Curriculum Hackathon]. The corresponding author is **Ciera Martinez** [@iamciera]. See the commit log for other contributors.
+
+Please post feedback and issues with the lesson on the repository's issue tracker. For instructor questions about teaching this lesson, you can also contact the corresponding author directly.
+
 ## License and Attribution
 
 - [Gapminder data](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
@@ -89,9 +86,6 @@ PNGs (scroll down through the README):
 - All other lesson material is dedicated to the public domain under
   the [CC Zero] waiver.
 
-
-[@jennybc]: http://github.com/jennybc
-[@hlapp]: http://github.com/hlapp
 [@iamciera]: http://github.com/iamciera
 [File Naming Conventions & Best Practices]: http://researchdata.library.ubc.ca/organize
 [File Format Considerations]: http://researchdata.library.ubc.ca/format/
@@ -101,3 +95,5 @@ PNGs (scroll down through the README):
 [10.4033/iee.2013.6b.6.f]: http://dx.doi.org/10.4033/iee.2013.6b.6.f
 [10.1371/journal.pcbi.1000424]: http://dx.doi.org/10.1371/journal.pcbi.1000424
 [CC Zero]: https://creativecommons.org/publicdomain/zero/1.0/
+[1. Reproducible Science Curriculum Hackathon]: https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014
+
