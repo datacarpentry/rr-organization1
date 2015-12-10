@@ -5,9 +5,9 @@
 Students will learn the benefits of project and folder organization,
 and how these enable reproducibility and reusability. They will then
 complete an activity highlighting the structure of data files,
-emphasizing the importance of documenting any changes made. 
+emphasizing the importance of documenting any changes made.
 
-At the begining of the session, students should be able
+At the beginning of the session, students should be able
 
 - to use a spreadsheet program to generate a plot
 - to use a text editor (Word, Google Docs, etc.) to communicate
@@ -25,14 +25,15 @@ At the end of the session students will be able to
 
 ### Activity - Forensic Science
 
-Lesson: [01-file-organization](01-file-organization.md)
+  * Lesson: [organization-01-lesson](organization-01-lesson.md)
+  * Instructor notes: [organization-01-instr-notes](organization-01-instr-notes.md)
 
 This section starts with an activity to get the students thinking
 about "excavating" a folder in the future.  It is meant to get the
 students thinking about what file names, file organization, and file
 content and what these can tell us about a project.
 
-### Lecture - File Naming 
+### Lecture - File Naming
 
 Slides can be found here, in Keynote format, in PDF, and as individual
 PNGs (scroll down through the README):
@@ -53,7 +54,7 @@ PNGs (scroll down through the README):
   Computational Biology Projects." PLoS Computational Biology 5 (7):
   e1000424. doi:[10.1371/journal.pcbi.1000424]
 
-### File naming and organization 
+### File naming and organization
 
 - [File Naming Conventions & Best Practices] (UBC Library, Research
   Data Management)
@@ -96,4 +97,3 @@ Please post feedback and issues with the lesson on the repository's issue tracke
 [10.1371/journal.pcbi.1000424]: http://dx.doi.org/10.1371/journal.pcbi.1000424
 [CC Zero]: https://creativecommons.org/publicdomain/zero/1.0/
 [1. Reproducible Science Curriculum Hackathon]: https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014
-
