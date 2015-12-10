@@ -24,8 +24,9 @@ output:
   - Tagline: Accelerating scientific progress through reproducible science.
 - Show best practices or *better practices*
 
-1. Exercise A: Invite participants to share your file organization nightmares they have faced (or are dealing with ) (5 - 10 mins max).
+1. Exercise A: Invite participants to share their file organization nightmares they have faced (or are dealing with ) (5 - 10 mins max).
   * If time: Ask them (make a list, potentially) for how they solved these, or are planning to solve. (what methods, what software)?
+  * You may need to share an experience of your own if they are reluctant, to get started.
 2. Time for this presentation. If you do Exercise A, do consider what slides you can skip as you go through this presentation.
 
 ## From the slides:
