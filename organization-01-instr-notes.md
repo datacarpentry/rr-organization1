@@ -21,7 +21,7 @@ messes at a future date. It is meant to get the learners thinking about
 file names, file organization, and file content and what these can tell us about
 a project.   
 
-Point the students to the slides for reference, as well as the two example projects, in the *Resources* section. Have them work in pairs to set up a new project in a way that facilitates reproducibility.
+Point the students to the slides for reference, as well as the two example projects, in the *Resources* section. Have them work in pairs to set up a new project in a way that facilitates reproducibility. Let the students come up with the project themselves, rather than providing sample ecology / genomics / social science / etc projects. 
 
 Put the Exercise and Questions on the screen.
 
