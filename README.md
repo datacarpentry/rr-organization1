@@ -4,42 +4,21 @@
 
 Students will learn the benefits of project and folder organization,
 and how these enable reproducibility and reusability. They will then
-complete an activity highlighting the structure of data files,
-emphasizing the importance of documenting any changes made.
-
-At the beginning of the session, students should be able
-
-- to use a spreadsheet program to generate a plot
-- to use a text editor (Word, Google Docs, etc.) to communicate
+complete an activity where they use provided examples to set up the structure and naming conventions for a new project.
 
 At the end of the session students will be able to
 
 - Evaluate folder and file structure of a project.
 - Recognize common problems that occur in file organization.
-- Be able to identify what plain text is.
-- Demonstrate the benefits of using plain text.
 - Distinguish between input and output files.
-- Integrate file naming standards to projects.
+- Setup up a new project with a structure that facilitates reproducibility
 
-## File organization
+## Materials
 
-### Activity - Forensic Science
-
-  * Lesson: [organization-01-lesson](organization-01-lesson.md)
-  * Instructor notes: [organization-01-instr-notes](organization-01-instr-notes.md)
-
-This section starts with an activity to get the students thinking
-about "excavating" a folder in the future.  It is meant to get the
-students thinking about what file names, file organization, and file
-content and what these can tell us about a project.
-
-### Lecture - File Naming
-
-Slides can be found here, in Keynote format, in PDF, and as individual
-PNGs (scroll down through the README):
-
-  * [File organization](slides/organization-slides)
-  * [File naming](slides/naming-slides)
+  * organization slides: `slides/organization-slides`
+  * file naming slides: `slides/naming-slides`
+  * Lesson: `organization-01-lesson.md`
+  * Instructor notes: `organization-01-instr-notes.md`
 
 ## Resources and useful links
 
@@ -70,22 +49,6 @@ PNGs (scroll down through the README):
 This lesson was first created at the [1. Reproducible Science Curriculum Hackathon]. The corresponding author is **Ciera Martinez** [@iamciera]. See the commit log for other contributors.
 
 Please post feedback and issues with the lesson on the repository's issue tracker. For instructor questions about teaching this lesson, you can also contact the corresponding author directly.
-
-## License and Attribution
-
-- [Gapminder data](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
-- Processed and subset (population size, life expectancy, GDP per
-  capita; only every 5 years only starting 1952, only complete records)
-  [Gapminder data as R package](https://github.com/jennybc/gapminder). The [data-raw](https://github.com/jennybc/gapminder/tree/master/data-raw) sub-directory reveals the journey from Gapminder.org's Excel workbooks to increasingly clean and tidy data.
-    - clean dataset can be located in R in the following way (after
-      installing the package):
-
-        ```R
-        pathToTsv <- system.file("gapminder.tsv", package = "gapminder")
-        ```
-
-- All other lesson material is dedicated to the public domain under
-  the [CC Zero] waiver.
 
 [@iamciera]: http://github.com/iamciera
 [File Naming Conventions & Best Practices]: http://researchdata.library.ubc.ca/organize
