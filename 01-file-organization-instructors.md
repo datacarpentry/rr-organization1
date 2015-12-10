@@ -22,6 +22,7 @@ output:
   - Mission statement: To Train researchers in the best practices and approaches of reproducible research and accelerate scientific progress
   - Tagline: Accelerating scientific progress through reproducible science.
 - Show best practices or *better practices*
+- These slide notes are meant to help the instructor by highlighting important points to cover for each slide. They are not meant to limit to *only these points* and it is certainly not meant for an instructor to read the text provided.
 
 ## Possible Activities
 1. Use information from the introductory group conversation where students are invited to share their file management choices, successes and failures.
@@ -81,7 +82,7 @@ output:
 2. It's time well-spent, but there is a point of *good enough.*
 
 #### Slide 18
-1. Another hint: **quarantine the crazy*. What?
+1. Another hint: **quarantine the crazy**. What?
 2. Create a space to put files and data with known issues.
 3. Create a README file or some other notes or code comments that track your changes to this messy data.
 
@@ -89,6 +90,7 @@ output:
 1. Learn how to revoke your write permissions to the '''raw''' data files.
   - this prevents the creation of very sad data stories.
   - remember there often is no "un-delete" so put measures into place to keep the nightmares away.
+  - (we are assuming here, that everyone knows how to do this, and what understands *write permissions*).
   
 #### Slide 20-21-22
 1. Review of the Data Analyses Life Cycle.
