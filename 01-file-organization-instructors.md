@@ -38,7 +38,7 @@ output:
 
 #### Slide 3
 1. With the advent of personal computing, old limits for how to name and organize directories are gone.
-* No more 8.3 file-naming, for example.
+* No limit anymore to 8.3 file-naming, for example.
 2. This makes it easier in some ways. We can name and organize directories and files anyway that we want to.
 3. But, for sharing data, and writing scripts that evaluate (or analyze) data in files automatically, files need to be
     structured, organized, and methodically named.
