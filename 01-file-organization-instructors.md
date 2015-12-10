@@ -23,10 +23,11 @@ output:
   - Tagline: Accelerating scientific progress through reproducible science.
 - Show best practices or *better practices*
 
+## Possible Activities
 1. Use information from the introductory group conversation where students are invited to share their file management choices, successes and failures.
   * If a list of issues was made, ask for how they solved these, or are planning to solve. (what methods, what software)?
   * You may need to share an experience of your own if they are reluctant, to get started.
-2. Consider the time needed for this presentation. If you do activity, do consider what slides you can skip as you go through this presentation.
+  2. Consider the time needed for this presentation. If you do activity, do consider what slides you can skip as you go through this presentation.
 
 ## From the slides:
 ### Key Points
