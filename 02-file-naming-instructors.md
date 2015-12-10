@@ -22,6 +22,7 @@ output:
   - Mission statement: To Train researchers in the best practices and approaches of reproducible research and accelerate scientific progress
   - Tagline: Accelerating scientific progress through reproducible science.
 - Show best practices or *better practices* for naming files and directories
+- Stress 3 Principals for (file) names: machine readable, human readable, and structured to sort by default (left pad with zeroes, for example)
 - These slide notes are meant to help the instructor by highlighting important points to cover for each slide. They are not meant to limit to *only these points* and it is certainly not meant for an instructor to read *verbatim* the text provided.
 
 ## Possible Activities
