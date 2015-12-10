@@ -1,0 +1,26 @@
+---
+title: "Organization II: Organization"
+author: "Reproducible Science Workshop"
+output:
+  ioslides_presentation:
+    highlight: pygments
+    widescreen: yes
+---
+
+## {.flexbox .vcenter}
+
+<center>
+A place for everything, everything in its place.
+</center>
+
+<br>
+
+Benjamin Franklin
+
+## {.flexbox .vcenter}
+
+![beer_messy_tidy](fig/beer_messy_tidy.png)
+
+## {.flexbox .vcenter}
+
+![files_messy_tidy](fig/files_messy_tidy.png)
