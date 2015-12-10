@@ -34,3 +34,203 @@ fig02_histogram-talk-attendance.png
 ~~~
 
 ## Three principles for (file) names
+
+1. Machine readable
+
+2. Human readable
+
+3. Plays well with default ordering
+
+## Awesome file names :)
+
+![awesome_names](fig/awesome_names.png)
+
+# Machine readable
+
+## Machine readable
+
+- Regular expression and globbing friendly
+    + Avoid spaces, punctuation, accented characters, case sensitivity
+
+- Easy to compute on
+    + Deliberate use of delimiters
+    
+## Globbing
+
+**Excerpt of complete file listing:**
+
+![plasmid_names](fig/plasmid_names.png)
+
+<hr>
+
+**Example of globbing to narrow file listing:**
+
+![plasmid_names](fig/plasmid_glob.png)
+
+
+## Same using Mac OS Finder search facilities
+
+<center>
+![plasmid_mac_os_search](fig/plasmid_mac_os_search.png)
+</center>
+
+## Same using regex in R
+
+<center>
+![plasmid_regex](fig/plasmid_regex.png)
+</center>
+
+## Punctuation {.smaller}
+
+Deliberate use of `"-"` and `"_"` allows recovery of meta-data from the filenames:
+
+- `"_"` underscore used to delimit units of meta-data I want later
+- `"-"` hyphen used to delimit words so my eyes don't bleed
+
+<center>
+![plasmid_delimiters](fig/plasmid_delimiters.png)
+</center>
+
+<hr>
+
+<center>
+![plasmid_delimiters_code](fig/plasmid_delimiters_code.png)
+</center>
+
+This happens to be R but also possible in the shell, Python, etc.
+
+## Recap: machine readable
+
+- Easy to search for files later
+
+- Easy to narrow file lists based on names
+
+- Easy to extract info from file names, e.g. by splitting
+
+- New to regular expressions and globbing? be kind to yourself and avoid
+    + Spaces in file names
+    + Punctuation
+    + Accented characters
+    + Different files named `foo` and `Foo`
+    
+# Human readable
+
+## Human readable
+
+- Name contains info on content
+
+- Connects to concept of a *slug* from semantic URLs
+
+## Example
+
+**Which set of file(name)s do you want at 3 a.m. before a deadline?**
+
+![human_readable_not_options](fig/human_readable_not_options.png)
+
+## Embrace the slug
+
+<div class="columns-2">
+![slug_filenames](fig/slug_filenames.png)
+![slug](fig/slug.jpg)
+</div>
+
+## Recap: Human readable
+
+Easy to figure out what the heck something is, based on its name
+
+# Plays well with default ordering
+
+## Plays well with default ordering
+
+- Put something numeric first
+
+- Use the ISO 8601 standard for dates
+
+- Left pad other numbers with zeros
+
+## Examples
+
+**Chronological order:**
+
+![chronological_order](fig/chronological_order.png)
+
+<hr>
+
+**Logical order:** Put something numeric first
+
+![logical_order](fig/logical_order.png)
+
+## Dates
+
+Use the ISO 8601 standard for dates: YYYY-MM-DD
+
+![chronological_order](fig/chronological_order.png)
+
+##
+
+<center>
+![iso_psa](fig/iso_8601.tiff)
+</center>
+
+## Comprehensive map of all countries in the world that use the MM-DD-YYYY format
+
+<center>
+![map_mmddyyy](fig/map_mmddyyy.tiff)
+</center>
+
+<br>
+
+From https://twitter.com/donohoe/status/597876118688026624.
+
+## Left pad other numbers with zeros
+
+<center>
+![logical_order](fig/logical_order.png)
+</center>
+
+<br>
+
+If you don’t left pad, you get this:
+
+~~~
+10_final-figs-for-publication.R
+1_data-cleaning.R
+2_fit-model.R
+~~~
+
+which is just sad :(
+
+## Recap: Plays well with default ordering
+
+- Put something numeric first
+
+- Use the ISO 8601 standard for dates
+
+- Left pad other numbers with zeros
+
+## Recap
+
+## Three principles for (file) names
+
+1. Machine readable
+
+2. Human readable
+
+3. Plays well with default ordering
+
+## Pros
+
+- Easy to implement NOW
+
+- Payoffs accumulate as your skills evolve and projects get more complex
+
+## Go forth and use awesome file names :)
+
+![chronological_order](fig/chronological_order.png)
+
+<br>
+
+![logical_order](fig/logical_order.png)
+
+
+
