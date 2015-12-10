@@ -1,0 +1,36 @@
+---
+title: "Organization I: Naming things"
+author: "Reproducible Science Workshop"
+output:
+  ioslides_presentation:
+    highlight: pygments
+    widescreen: yes
+---
+
+## Names matter
+
+![cheers](fig/cheers.png)
+
+## What works, what doesn't?
+
+**NO**
+
+~~~
+myabstract.docx
+Joe’s Filenames Use Spaces and Punctuation.xlsx
+figure 1.png
+fig 2.png
+JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt
+~~~
+
+**YES**
+
+~~~
+2014-06-08_abstract-for-sla.docx
+joes-filenames-are-getting-better.xlsx
+fig01_scatterplot-talk-length-vs-interest.png
+fig02_histogram-talk-attendance.png
+1986-01-28_raw-data-from-challenger-o-rings.txt
+~~~
+
+## Three principles for (file) names
