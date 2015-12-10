@@ -21,7 +21,7 @@ messes at a future date. It is meant to get the learners thinking about
 file names, file organization, and file content and what these can tell us about
 a project.   
 
-Point the students to the slides for reference, as well as the two example projects, in the *Resources* section. Have them work in pairs to set up a new project in a way that facilitates reproducibility. Let the students come up with the project themselves, rather than providing sample ecology / genomics / social science / etc projects. 
+Point the students to the slides for reference, as well as the two example projects, in the *Resources* section. Have them work in pairs to set up a new project in a way that facilitates reproducibility. Let the students come up with the project themselves, rather than providing sample ecology / genomics / social science / etc projects.
 
 Put the Exercise and Questions on the screen.
 
@@ -32,3 +32,4 @@ Give them about 20 minutes.
   * why did you make changes?
   * what did you and your partner agree / disagree on?
   * were there aspects of the best practices that were difficult to apply to your project?
+  * can you imagine this structure evolving over the life of the project? how would you make this structure extensible? 
