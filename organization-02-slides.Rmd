@@ -19,15 +19,15 @@ Benjamin Franklin
 
 ## {.flexbox .vcenter}
 
-![beer_messy_tidy](fig/beer_messy_tidy.png)
+![beer_messy_tidy](img/02-organization/beer_messy_tidy.png)
 
 ## {.flexbox .vcenter}
 
-![files_messy_tidy](fig/files_messy_tidy.png)
+![files_messy_tidy](img/02-organization/files_messy_tidy.png)
 
 ## Data analysis workflow {.flexbox .vcenter}
 
-![workflow](fig/workflow.png)
+![workflow](img/02-organization/workflow.png)
 
 ## Face it...
 
@@ -58,7 +58,7 @@ Benjamin Franklin
 Pick a strategy, any strategy, just pick one!
 
 <div class="columns-2">
-![workflow_raw_data_to_data](fig/workflow_raw_data_to_data.png)
+![workflow_raw_data_to_data](img/02-organization/workflow_raw_data_to_data.png)
 
 ~~~
 data
@@ -77,7 +77,7 @@ data/
 Pick a strategy, any strategy, just pick one!
 
 <div class="columns-2">
-![workflow_data_to_results_1](fig/workflow_data_to_results_1.png)
+![workflow_data_to_results_1](img/02-organization/workflow_data_to_results_1.png)
 
 ~~~
 code
@@ -95,7 +95,7 @@ bin
 Pick a strategy, any strategy, just pick one!
 
 <div class="columns-2">
-![workflow_data_to_results_2](fig/workflow_data_to_results_2.png)
+![workflow_data_to_results_2](img/02-organization/workflow_data_to_results_2.png)
 
 ~~~
 figures
@@ -137,44 +137,44 @@ tables
 
 Ready to analyze data:
 
-![sample_ready_to_analyze_data](fig/sample_ready_to_analyze_data.png)
+![sample_ready_to_analyze_data](img/02-organization/sample_ready_to_analyze_data.png)
 
 <hr>
 
 Raw data:
 
-![sample_raw_data](fig/sample_raw_data.png)
+![sample_raw_data](img/02-organization/sample_raw_data.png)
 
 
 ## Analysis and figures
 
 R scripts + the Markdown files from "Compile Notebook":
 
-![sample_ready_to_analyze_data](fig/sample_analysis.png)
+![sample_ready_to_analyze_data](img/02-organization/sample_analysis.png)
 
 <hr>
 
 The figures created in those R scripts and linked in those Markdown files:
 
-![sample_raw_data](fig/sample_figures.png)
+![sample_raw_data](img/02-organization/sample_figures.png)
 
 ## Scripts
 
 Linear progression of R scripts, and Makefile to run the entire analysis:
 
-![sample_scripts](fig/sample_scripts.png)
+![sample_scripts](img/02-organization/sample_scripts.png)
 
 ## Results
 
 Tab-delimited files with one row per gene of parameter estimates, test statistics, etc.:
 
-![sample_results](fig/sample_results.png)
+![sample_results](img/02-organization/sample_results.png)
 
 ## Expository files
 
 Files to help collaborators understand the model we fit: some markdown docs, a Keynote presentation, Keynote slides exported as PNGs for viewability on GitHub:
 
-![sample_expository](fig/sample_expository.png)
+![sample_expository](img/02-organization/sample_expository.png)
 
 ## Caveats / problems with this example
 
@@ -281,5 +281,5 @@ drwxr-xr-x   4 jenny  staff        136 Jun  3  2014 results
 ~~~
 
 <center>
-<img src="fig/workflow.png" height="290px" />
+<img src="img/02-organization/workflow.png" height="290px" />
 </center>
