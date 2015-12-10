@@ -18,14 +18,14 @@ output:
 - Show personal information management strategies that are fine for an individual, but make file sharing, 
   automated processing very difficult or impossible.
 - Encourage group cohesion. We've either all done these things, or inherit these issues. So what's a person / lab to do?
-    - See Exercise A.
+  - See Exercise A.
 - Remind them of the mission statement and the tagline:
-    - Mission statement: To Train researchers in the best practices and approaches of reproducible research and accelerate scientific progress
-    - Tagline: Accelerating scientific progress through reproducible science.
-- Show best practices or ''better practices''
+  - Mission statement: To Train researchers in the best practices and approaches of reproducible research and accelerate scientific progress
+  - Tagline: Accelerating scientific progress through reproducible science.
+- Show best practices or *better practices*
 
 1. Exercise A: Invite participants to share your file organization nightmares they have faced (or are dealing with ) (5 - 10 mins max).
-* If time: Ask them (make a list, potentially) for how they solved these, or are planning to solve. (what methods, what software)?
+  * If time: Ask them (make a list, potentially) for how they solved these, or are planning to solve. (what methods, what software)?
 
 ## From the slides:
 ### Key Points
@@ -112,7 +112,7 @@ not all tasks) than that they finish.
 Introduce yourself to your collaborator and tell them why you're here.
 
 1. Swap instructions / documentation with your collaborator, and try to reproduce 
-their work, first **without talking to each oher**. 
+their work, first **without talking to each other**. 
 If your collaborator does not have the software they need to reproduce your work, we 
 encourage you to either help them install it or walk them through it on your computer 
 in a way that would emulate the experience. (Remember, this could be part of the 
