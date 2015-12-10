@@ -9,7 +9,7 @@ output:
 
 ## Names matter
 
-![cheers](fig/cheers.png)
+![cheers](img/01-naming/cheers.png)
 
 ## What works, what doesn't?
 
@@ -43,7 +43,7 @@ fig02_histogram-talk-attendance.png
 
 ## Awesome file names :)
 
-![awesome_names](fig/awesome_names.png)
+![awesome_names](img/01-naming/awesome_names.png)
 
 # Machine readable
 
@@ -59,25 +59,25 @@ fig02_histogram-talk-attendance.png
 
 **Excerpt of complete file listing:**
 
-![plasmid_names](fig/plasmid_names.png)
+![plasmid_names](img/01-naming/plasmid_names.png)
 
 <hr>
 
 **Example of globbing to narrow file listing:**
 
-![plasmid_names](fig/plasmid_glob.png)
+![plasmid_names](img/01-naming/plasmid_glob.png)
 
 
 ## Same using Mac OS Finder search facilities
 
 <center>
-![plasmid_mac_os_search](fig/plasmid_mac_os_search.png)
+![plasmid_mac_os_search](img/01-naming/plasmid_mac_os_search.png)
 </center>
 
 ## Same using regex in R
 
 <center>
-![plasmid_regex](fig/plasmid_regex.png)
+![plasmid_regex](img/01-naming/plasmid_regex.png)
 </center>
 
 ## Punctuation {.smaller}
@@ -88,13 +88,13 @@ Deliberate use of `"-"` and `"_"` allows recovery of meta-data from the filename
 - `"-"` hyphen used to delimit words so my eyes don't bleed
 
 <center>
-![plasmid_delimiters](fig/plasmid_delimiters.png)
+![plasmid_delimiters](img/01-naming/plasmid_delimiters.png)
 </center>
 
 <hr>
 
 <center>
-![plasmid_delimiters_code](fig/plasmid_delimiters_code.png)
+![plasmid_delimiters_code](img/01-naming/plasmid_delimiters_code.png)
 </center>
 
 This happens to be R but also possible in the shell, Python, etc.
@@ -125,13 +125,13 @@ This happens to be R but also possible in the shell, Python, etc.
 
 **Which set of file(name)s do you want at 3 a.m. before a deadline?**
 
-![human_readable_not_options](fig/human_readable_not_options.png)
+![human_readable_not_options](img/01-naming/human_readable_not_options.png)
 
 ## Embrace the slug
 
 <div class="columns-2">
-![slug_filenames](fig/slug_filenames.png)
-![slug](fig/slug.jpg)
+![slug_filenames](img/01-naming/slug_filenames.png)
+![slug](img/01-naming/slug.jpg)
 </div>
 
 ## Recap: Human readable
@@ -152,30 +152,30 @@ Easy to figure out what the heck something is, based on its name
 
 **Chronological order:**
 
-![chronological_order](fig/chronological_order.png)
+![chronological_order](img/01-naming/chronological_order.png)
 
 <hr>
 
 **Logical order:** Put something numeric first
 
-![logical_order](fig/logical_order.png)
+![logical_order](img/01-naming/logical_order.png)
 
 ## Dates
 
 Use the ISO 8601 standard for dates: YYYY-MM-DD
 
-![chronological_order](fig/chronological_order.png)
+![chronological_order](img/01-naming/chronological_order.png)
 
 ##
 
 <center>
-![iso_psa](fig/iso_8601.tiff)
+![iso_psa](img/01-naming/iso_8601.tiff)
 </center>
 
 ## Comprehensive map of all countries in the world that use the MM-DD-YYYY format
 
 <center>
-![map_mmddyyy](fig/map_mmddyyy.tiff)
+![map_mmddyyy](img/01-naming/map_mmddyyy.tiff)
 </center>
 
 <br>
@@ -185,7 +185,7 @@ From https://twitter.com/donohoe/status/597876118688026624.
 ## Left pad other numbers with zeros
 
 <center>
-![logical_order](fig/logical_order.png)
+![logical_order](img/01-naming/logical_order.png)
 </center>
 
 <br>
@@ -226,11 +226,11 @@ which is just sad :(
 
 ## Go forth and use awesome file names :)
 
-![chronological_order](fig/chronological_order.png)
+![chronological_order](img/01-naming/chronological_order.png)
 
 <br>
 
-![logical_order](fig/logical_order.png)
+![logical_order](img/01-naming/logical_order.png)
 
 
 
