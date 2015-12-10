@@ -90,7 +90,7 @@ output:
 1. Learn how to revoke your write permissions to the '''raw''' data files.
   - this prevents the creation of very sad data stories.
   - remember there often is no "un-delete" so put measures into place to keep the nightmares away.
-  - (we are assuming here, that everyone knows how to do this, and what understands *write permissions*).
+  - (we are assuming here, that everyone knows how to do this, and understands *write permissions*).
   
 #### Slide 20-21-22
 1. Review of the Data Analyses Life Cycle.
