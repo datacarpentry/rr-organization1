@@ -53,6 +53,7 @@ While this is fine for personal use (is it?), it does not support reproducibilit
 4. File naming or renaming can take some forethought
     * either because you are lucky enough to be starting from scratch OR
     * because you are trying to standardize an existing set of data files.
+5. If you are starting from scratch, also you will want to document your decisions about how (files) will be named and directories structured.
 
 #### Slide 4 (awesome file names)
 1. Note the file-naming pattern that means the files sort, and the information contained in the name. 
