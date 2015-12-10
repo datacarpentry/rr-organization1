@@ -25,8 +25,8 @@ output:
 - Invite participants to share file organization (nightmares) challenges they have faced (or are dealing with)
     - Ask them (make a list, potentially) for how they solved these, or are planning to solve.
     
-## Exercise: Share your file organization nightmares (5 - 10 mins max)
-#### If time: Ask them to share how they solved or are planning to solve (what methods, what software)?
+1. Exercise: Share your file organization nightmares (5 - 10 mins max)
+* If time: Ask them to share how they solved or are planning to solve (what methods, what software)?
 
 ## From the slides:
 ### Key Points
