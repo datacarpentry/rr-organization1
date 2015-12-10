@@ -44,12 +44,12 @@ output:
 3. But, for sharing data, and writing scripts that evaluate (or analyze) data in files automatically, files need to be
     structured, organized, and methodically named.
 4. They also need to be organized and structured -- for one's mental sanity, and of course -- reproducibility!
-5. This can take some forethought
-* either because you are lucky enough to be starting from scratch OR
-* because you are trying to standardize an existing set of data files.
+  1. This process can take some forethought
+    * either because you are lucky enough to be starting from scratch OR
+    * because you are trying to standardize an existing set of data files.
 
 #### Slide 4
-1. Consider the data-life-cycle. To conceptualize this, think of inputs (your raw data), and outputs.
+1. Consider the data-life-cycle. To conceptualize this, think of **inputs** (your raw data), and **outputs.**
 2. Your data life cycle can help you figure out how to store your raw data, your iterative analyses, and output like posters, manuscripts, and reports in a way that helps you keep track, now-and-in-the-future.
 
 #### Slide 5
@@ -68,13 +68,7 @@ output:
 
 #### Slide 8-9-10
 1. No matter what you do, decide what to do and stick-to-it. Be consistent.
-* Optional - may be a good place in-the-future, to modify the slide to contain something like
-** data-raw
-** data-clean
-** data-clean-notes
-<br>
-or data-clean/data-clean-notes<br>
-to show where you would keep a file that lists what you've done, what steps you've taken, to clean your data.
+  * Optional - may be a good place in-the-future, to modify the slide to contain something to show where you would keep a file that lists what you've done, what steps you've taken, to clean your data.
 
 #### Slide 11-12-13-14-15
 1. Example directory structure.
@@ -84,10 +78,10 @@ to show where you would keep a file that lists what you've done, what steps you'
 
 #### Slide 17
 1. Why should you bother standardizing your research workflow? What will you get for your organizational efforts?
-2. It's time well-spent, but there is a point of "good enough."
+2. It's time well-spent, but there is a point of *good enough.*
 
 #### Slide 18
-1. Another hint: '''quarantine the crazy'''. What?
+1. Another hint: **quarantine the crazy*. What?
 2. Create a space to put files and data with known issues.
 3. Create a README file or some other notes or code comments that track your changes to this messy data.
 
@@ -101,33 +95,13 @@ to show where you would keep a file that lists what you've done, what steps you'
 
 #### Tips for instructors:
 
-- Remind them that they need to document -- in past workshops most people got hung
-up on doing, then documenting, and then the second part of the exercises didn't
-have as much of a punch. More important that they document what they do (even if
-not all tasks) than that they finish.
+- Remind them that they need to document as they go -- in past workshops most people got hung up on doing, then documenting, and then the second part of the exercises didn't have as much of a punch. More important that they document what they do (even if not all tasks) than that they finish.
 
-### Part 1: Swap + discuss (15 minutes)
-
-#### From the slides:
-
-<div class="boxed">
-Introduce yourself to your collaborator and tell them why you're here.
-
-1. Swap instructions / documentation with your collaborator, and try to reproduce 
-their work, first **without talking to each other**. 
-If your collaborator does not have the software they need to reproduce your work, we 
-encourage you to either help them install it or walk them through it on your computer 
-in a way that would emulate the experience. (Remember, this could be part of the 
-irreproducibility problem!)
-2. Then, talk to each other about challenges you faced (or didn't face) or why 
-you were or weren't able to reproduce their work.
-</div>
-
-#### Tips for instructors:
+<!-- #### Tips for instructors:
 
 - Collect data from the students on their file management choices, successes and failures. Tallying these
 on the board creates a nice visual.
     - If you know that the session will have a large number of participants preparing a
     Google Form might be useful.
 - Adjust discussion time on slides if issues are well-covered in opening discussions. Feel free to keep it short at end
-if exercise took longer than intended.
+if exercise took longer than intended. -->
