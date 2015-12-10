@@ -22,7 +22,7 @@ output:
   - Mission statement: To Train researchers in the best practices and approaches of reproducible research and accelerate scientific progress
   - Tagline: Accelerating scientific progress through reproducible science.
 - Show best practices or *better practices*
-- These slide notes are meant to help the instructor by highlighting important points to cover for each slide. They are not meant to limit to *only these points* and it is certainly not meant for an instructor to read the text provided.
+- These slide notes are meant to help the instructor by highlighting important points to cover for each slide. They are not meant to limit to *only these points* and it is certainly not meant for an instructor to read *verbatim* the text provided.
 
 ## Possible Activities
 1. Use information from the introductory group conversation where students are invited to share their file management choices, successes and failures.
