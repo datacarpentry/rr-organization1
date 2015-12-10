@@ -1,5 +1,5 @@
 ---
-title: "Organization I: Naming things"
+title: "Organization I: File naming"
 author: "Reproducible Science Workshop"
 output:
   ioslides_presentation:
