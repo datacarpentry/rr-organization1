@@ -35,9 +35,6 @@ At the end of the session students will be able to
 
 ### File naming and organization
 
-- [File Naming Conventions & Best Practices] (UBC Library, Research
-  Data Management)
-- [File Format Considerations] (UBC Library, Research Data Management)
 - File naming guides and suggestions from
     - [Minnesota Historical Society](http://www.mnhs.org/preserve/records/electronicrecords/erfnaming.php)
     - [University of Edinburgh, Records Management](http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/Rules.htm)
@@ -51,8 +48,6 @@ This lesson was first created at the [1. Reproducible Science Curriculum Hackath
 Please post feedback and issues with the lesson on the repository's issue tracker. For instructor questions about teaching this lesson, you can also contact the corresponding author directly.
 
 [@iamciera]: http://github.com/iamciera
-[File Naming Conventions & Best Practices]: http://researchdata.library.ubc.ca/organize
-[File Format Considerations]: http://researchdata.library.ubc.ca/format/
 [List of filename extensions]: http://en.wikipedia.org/wiki/List_of_file_formats
 [ISO 8601 standard for dates]: http://en.wikipedia.org/wiki/ISO_8601
 [Good practice guidance on releasing statistics in spreadsheets]: https://gss.civilservice.gov.uk/wp-content/uploads/2012/12/Releasing-statistics-in-spreadsheets-Good-practice-guidance.pdf
