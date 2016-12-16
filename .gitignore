@@ -1,5 +1,11 @@
 .Rhistory
-
 .Rproj.user
 .DS_Store
 data/.DS_Store
+*.pyc
+*~
+.DS_Store
+.ipynb_checkpoints
+.sass-cache
+__pycache__
+_site
