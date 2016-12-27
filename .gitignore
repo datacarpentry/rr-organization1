@@ -9,3 +9,4 @@ data/.DS_Store
 .sass-cache
 __pycache__
 _site
+_episodes_rmd.Rproj

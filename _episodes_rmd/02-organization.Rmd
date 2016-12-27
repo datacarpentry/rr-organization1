@@ -1,0 +1,15 @@
+---
+title: "File Organization: Organization"
+teaching: 30
+exercises: 10
+questions:
+- "What are the common file organization errors?"
+- "What are best practices for file organization?"
+objectives:
+- "Highlight common SNAFUs"
+- "Learn to employ unit testing"
+keypoints:
+- "File organization is important."
+output:  
+      html_document
+---
