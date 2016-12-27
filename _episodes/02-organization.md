@@ -13,18 +13,20 @@ output:
       html_document
 ---
 
+
+
 *A place for everything, everything in its place* - Benjamin Franklin
 
 ***
-<img src = "../fig/beer_messy_tidy.png" width = 500>
+<img src="../fig/beer_messy_tidy.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="500px" style="display: block; margin: auto;" />
 
-<img src = "../fig/files_messy_tidy.png" width = 500>
+<img src="../fig/files_messy_tidy.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="500px" style="display: block; margin: auto;" />
 
 ***
 
 ### Data analysis workflow
 
-<img src = "../fig/workflow.png" width = 500>
+<img src="../fig/workflow.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="500px" style="display: block; margin: auto;" />
 
 ***
 #### Face it...
@@ -50,71 +52,71 @@ output:
 
 Pick a strategy, any strategy, just pick one and *stick to it*!
 
-<img src = "../fig/workflow_raw_data_to_data.png" width = 200>
+<img src="../fig/workflow_raw_data_to_data.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="200px" style="display: block; margin: auto;" />
 
 ***
 #### Data $\rightarrow$ results
 
 Pick a strategy, any strategy, just pick one and *stick to it*!
 
-<img src = "../fig/workflow_data_to_results_1.png" width = 400>
+<img src="../fig/workflow_data_to_results_1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="400px" style="display: block; margin: auto;" />
 
 ***
 #### Data $\rightarrow$ results
 
 Pick a strategy, any strategy, just pick one and *stick to it*!
 
-<img src = "../fig/workflow_data_to_results_2.png" width = 400>
+<img src="../fig/workflow_data_to_results_2.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="400px" style="display: block; margin: auto;" />
 
 ***
 ### A real (and imperfect!) example
 
-<img src = "../fig/sample_real_imperfect.png" width = 600>
+<img src="../fig/sample_real_imperfect.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="600px" style="display: block; margin: auto;" />
 
 ***
 #### Data
 
 Ready to analyze data:
 
-<img src = "../fig/sample_ready_to_analyze_data.png" width = 700>
+<img src="../fig/sample_ready_to_analyze_data.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="700px" style="display: block; margin: auto;" />
 
 ***
 
 Raw data:
 
-<img src = "../fig/sample_raw_data.png" width = 700>
+<img src="../fig/sample_raw_data.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" width="700px" style="display: block; margin: auto;" />
 
 ***
 #### Analysis and figures
 
 `R` scripts + the `Markdown` files from "Compile Notebook":
 
-<img src = "../fig/sample_ready_to_analyze_data.png" width = 700>
+<img src="../fig/sample_ready_to_analyze_data.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" width="700px" style="display: block; margin: auto;" />
 
 ***
 The figures created in those `R` scripts and linked in those `Markdown` files:
 
-<img src = "../fig/sample_raw_data.png" width = 700>
+<img src="../fig/sample_raw_data.png" title="plot of chunk unnamed-chunk-11" alt="plot of chunk unnamed-chunk-11" width="700px" style="display: block; margin: auto;" />
 
 ***
 #### Scripts
 Linear progression of `R` scripts, and `Makefile` to run the entire analysis:
 
-<img src = "../fig/sample_scripts.png" width = 700>
+<img src="../fig/sample_scripts.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" width="700px" style="display: block; margin: auto;" />
 
 ***
 #### Results
 
 Tab-delimited files with one row per gene of parameter estimates, test statistics, etc.:
 
-<img src = "../fig/sample_results.png" width = 600>
+<img src="../fig/sample_results.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" width="600px" style="display: block; margin: auto;" />
 
 ***
 #### Expository files
 
 Files to help collaborators understand the model we fit: some markdown docs, a Keynote presentation, Keynote slides exported as PNGs for viewability on GitHub:
 
-<img src = "../fig/sample_expository.png" width = 700>
+<img src="../fig/sample_expository.png" title="plot of chunk unnamed-chunk-14" alt="plot of chunk unnamed-chunk-14" width="700px" style="display: block; margin: auto;" />
 
 ***
 #### Caveats / problems with this example
@@ -206,4 +208,4 @@ drwxr-xr-x  22 jenny  staff        748 Jun 23  2014 model-exposition
 drwxr-xr-x   4 jenny  staff        136 Jun  3  2014 results
 ```
 
-<img src = "../fig/workflow.png" width = 500>
+<img src="../fig/workflow.png" title="plot of chunk unnamed-chunk-15" alt="plot of chunk unnamed-chunk-15" width="500px" style="display: block; margin: auto;" />

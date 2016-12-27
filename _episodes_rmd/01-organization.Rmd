@@ -13,7 +13,10 @@ keypoints:
 output:  
       html_document
 ---
-
+```{r setup, include = FALSE, fig.align = "center"}
+library(knitr)
+opts_chunk$set(echo = TRUE, fig.align = "center")
+```
 ## Names matter
 
 ### NO
@@ -43,7 +46,9 @@ fig02_histogram-talk-attendance.png
 ***
 ### Awesome file names :)
 
-<img src = "../fig/awesome_names.png" width = 500>
+```{r, out.width = "500px", echo = FALSE}
+include_graphics("../fig/awesome_names.png")
+```
 
 ***
 ### Machine readable
@@ -62,22 +67,30 @@ fig02_histogram-talk-attendance.png
 
 **Except of complete file listing**:
 
-<img src = "../fig/plasmid_names.png" width = 500>
+```{r, out.width = "500px", echo = FALSE}
+include_graphics("../fig/plasmid_names.png")
+```
 
 *** 
 **Example of globbing to narrow file listing**:
 
-<img src = "../fig/plasmid_names.png" width = 500>
+```{r, out.width = "500px", echo = FALSE}
+include_graphics("../fig/plasmid_names.png")
+```
 
 ***
 **Same using Mac OS Finder search facilities**:
 
-<img src = "../fig/plasmid_mac_os_search.png" width = 700>
+```{r, out.width = "700px", echo = FALSE}
+include_graphics("../fig/plasmid_mac_os_search.png")
+```
 
 ***
 **Same using regex in `R`**:
 
-<img src = "../fig/plasmid_regex.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/plasmid_regex.png")
+```
 
 ***
 #### Punctuation
@@ -87,10 +100,14 @@ Deliberate use of "-" and "_" allows recovery of meta-data from the filenames:
 - "_" underscore used to delimit units of meta-data I want later.
 - "-" hyphen used to delimit words so my eyes don't bleed.
 
-<img src = "../fig/plasmid_delimiters.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/plasmid_delimiters.png")
+```
 
 ***
-<img src = "../fig/plasmid_delimiters_code.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/plasmid_delimiters_code.png")
+```
 
 This happens to be `R` but also possible in the `shell`, `Python`, etc.
 
@@ -118,14 +135,20 @@ This happens to be `R` but also possible in the `shell`, `Python`, etc.
 
 **Which set of file(name)s do you want at 3 a.m. before a deadline**?
 
-<img src = "../fig/human_readable_not_options.png" width = 500>
+```{r, out.width = "500px", echo = FALSE}
+include_graphics("../fig/human_readable_not_options.png")
+```
 
 ***
 #### Embrace the *slug*
 
-<img src = "../fig/slug.jpg" width = 400>
+```{r, out.width = "400px", echo = FALSE}
+include_graphics("../fig/slug.jpg")
+```
 
-<img src = "../fig/slug_filenames.png" width = 400>
+```{r, out.width = "400px", echo = FALSE}
+include_graphics("../fig/slug_filenames.png")
+```
 
 ***
 #### Recap: Human readable
@@ -146,28 +169,39 @@ Easy to figure out what the heck something is, based on its name
 
 **Chronological order**:
 
-<img src = "../fig/chronological_order.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/chronological_order.png")
+```
 
 ***
 **Logical order**: Put something numeric first
 
-<img src = "../fig/logical_order.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/logical_order.png")
+```
 
 ***
+
 **Dates**: Use the ISO 8601 standard for dates: YYYY-MM-DD
 
-<img src = "../fig/chronological_order.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/chronological_order.png")
+```
 
 ***
 
-<img src = "../fig/map_mmddyyy.tiff" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/map_mmddyyy.tiff")
+```
 
 [From twitter](https://twitter.com/donohoe/status/597876118688026624)
 
 ***
 **Left pad other numbers with zeros**
 
-<img src = "../fig/logical_order.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/logical_order.png")
+```
 
 If you don’t left pad, you get this:
 
@@ -203,6 +237,10 @@ which is just sad :(
 ***
 Go forth and use awesome file names :)
 
-<img src = "../fig/chronological_order.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/chronological_order.png")
+```
 
-<img src = "../fig/logical_order.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/logical_order.png")
+```

@@ -13,18 +13,29 @@ output:
       html_document
 ---
 
+```{r setup, include = FALSE, fig.align = "center"}
+library(knitr)
+opts_chunk$set(echo = TRUE, fig.align = "center")
+```
+
 *A place for everything, everything in its place* - Benjamin Franklin
 
 ***
-<img src = "../fig/beer_messy_tidy.png" width = 500>
+```{r, out.width = "500px", echo = FALSE}
+include_graphics("../fig/beer_messy_tidy.png")
+```
 
-<img src = "../fig/files_messy_tidy.png" width = 500>
+```{r, out.width = "500px", echo = FALSE}
+include_graphics("../fig/files_messy_tidy.png")
+```
 
 ***
 
 ### Data analysis workflow
 
-<img src = "../fig/workflow.png" width = 500>
+```{r, out.width = "500px", echo = FALSE}
+include_graphics("../fig/workflow.png")
+```
 
 ***
 #### Face it...
@@ -50,71 +61,93 @@ output:
 
 Pick a strategy, any strategy, just pick one and *stick to it*!
 
-<img src = "../fig/workflow_raw_data_to_data.png" width = 200>
+```{r, out.width = "200px", echo = FALSE}
+include_graphics("../fig/workflow_raw_data_to_data.png")
+```
 
 ***
 #### Data $\rightarrow$ results
 
 Pick a strategy, any strategy, just pick one and *stick to it*!
 
-<img src = "../fig/workflow_data_to_results_1.png" width = 400>
+```{r, out.width = "400px", echo = FALSE}
+include_graphics("../fig/workflow_data_to_results_1.png")
+```
 
 ***
 #### Data $\rightarrow$ results
 
 Pick a strategy, any strategy, just pick one and *stick to it*!
 
-<img src = "../fig/workflow_data_to_results_2.png" width = 400>
+```{r, out.width = "400px", echo = FALSE}
+include_graphics("../fig/workflow_data_to_results_2.png")
+```
 
 ***
 ### A real (and imperfect!) example
 
-<img src = "../fig/sample_real_imperfect.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/sample_real_imperfect.png")
+```
 
 ***
 #### Data
 
 Ready to analyze data:
 
-<img src = "../fig/sample_ready_to_analyze_data.png" width = 700>
+```{r, out.width = "700px", echo = FALSE}
+include_graphics("../fig/sample_ready_to_analyze_data.png")
+```
 
 ***
 
 Raw data:
 
-<img src = "../fig/sample_raw_data.png" width = 700>
+```{r, out.width = "700px", echo = FALSE}
+include_graphics("../fig/sample_raw_data.png")
+```
 
 ***
 #### Analysis and figures
 
 `R` scripts + the `Markdown` files from "Compile Notebook":
 
-<img src = "../fig/sample_ready_to_analyze_data.png" width = 700>
+```{r, out.width = "700px", echo = FALSE}
+include_graphics("../fig/sample_ready_to_analyze_data.png")
+```
 
 ***
 The figures created in those `R` scripts and linked in those `Markdown` files:
 
-<img src = "../fig/sample_raw_data.png" width = 700>
+```{r, out.width = "700px", echo = FALSE}
+include_graphics("../fig/sample_raw_data.png")
+```
 
 ***
 #### Scripts
 Linear progression of `R` scripts, and `Makefile` to run the entire analysis:
 
-<img src = "../fig/sample_scripts.png" width = 700>
+```{r, out.width = "700px", echo = FALSE}
+include_graphics("../fig/sample_scripts.png")
+```
 
 ***
 #### Results
 
 Tab-delimited files with one row per gene of parameter estimates, test statistics, etc.:
 
-<img src = "../fig/sample_results.png" width = 600>
+```{r, out.width = "600px", echo = FALSE}
+include_graphics("../fig/sample_results.png")
+```
 
 ***
 #### Expository files
 
 Files to help collaborators understand the model we fit: some markdown docs, a Keynote presentation, Keynote slides exported as PNGs for viewability on GitHub:
 
-<img src = "../fig/sample_expository.png" width = 700>
+```{r, out.width = "700px", echo = FALSE}
+include_graphics("../fig/sample_expository.png")
+```
 
 ***
 #### Caveats / problems with this example
@@ -206,4 +239,6 @@ drwxr-xr-x  22 jenny  staff        748 Jun 23  2014 model-exposition
 drwxr-xr-x   4 jenny  staff        136 Jun  3  2014 results
 ```
 
-<img src = "../fig/workflow.png" width = 500>
+```{r, out.width = "500px", echo = FALSE}
+include_graphics("../fig/workflow.png")
+```
