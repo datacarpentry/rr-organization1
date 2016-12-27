@@ -7,7 +7,6 @@ questions:
 - "What are best practices for file organization?"
 objectives:
 - "Highlight common SNAFUs"
-- "Learn to employ unit testing"
 keypoints:
 - "File organization is important."
 output:  

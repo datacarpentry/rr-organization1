@@ -2,6 +2,7 @@
 title: "File Organization: Naming"
 teaching: 30
 exercises: 10
+break: 20
 questions:
 - "What are the common file organization errors?"
 - "What are best practices for file organization?"
@@ -40,4 +41,169 @@ fig02_histogram-talk-attendance.png
 1. Human readable
 1. Plays well with default ordering
 
+***
 ### Awesome file names :)
+
+<img src = "../fig/awesome_names.png" width = 500>
+
+***
+### Machine readable
+
+
+#### Machine readable
+
+- Regular expression and globbing friendly
+    - Avoid spaces, punctuation, accented characters, case sensitivity
+    - Easy to compute on
+
+- Deliberate use of delimiters
+
+***
+#### Globbing
+
+**Except of complete file listing**:
+
+<img src = "../fig/plasmid_names.png" width = 500>
+
+*** 
+**Example of globbing to narrow file listing**:
+
+<img src = "../fig/plasmid_names.png" width = 500>
+
+***
+**Same using Mac OS Finder search facilities**:
+
+<img src = "../fig/plasmid_mac_os_search.png" width = 700>
+
+***
+**Same using regex in `R`**:
+
+<img src = "../fig/plasmid_regex.png" width = 600>
+
+***
+#### Punctuation
+
+Deliberate use of "-" and "_" allows recovery of meta-data from the filenames:
+
+- "_" underscore used to delimit units of meta-data I want later.
+- "-" hyphen used to delimit words so my eyes don't bleed.
+
+<img src = "../fig/plasmid_delimiters.png" width = 600>
+
+***
+<img src = "../fig/plasmid_delimiters_code.png" width = 600>
+
+This happens to be `R` but also possible in the `shell`, `Python`, etc.
+
+***
+### Recap: machine readable
+
+- Easy to search for files later
+- Easy to narrow file lists based on names
+- Easy to extract info from file names, e.g. by splitting
+- New to regular expressions and globbing? Be kind to yourself and avoid
+- Spaces in file names
+- Punctuation
+- Accented characters
+- Different files named `foo` and `Foo`
+
+### Human readable
+
+#### Human readable
+
+- Name contains info on content
+- Connects to concept of a *slug* from semantic URLs
+
+*** 
+#### Example
+
+**Which set of file(name)s do you want at 3 a.m. before a deadline**?
+
+<img src = "../fig/human_readable_not_options.png" width = 500>
+
+***
+#### Embrace the *slug*
+
+<img src = "../fig/slug.jpg" width = 400>
+
+<img src = "../fig/slug_filenames.png" width = 400>
+
+***
+#### Recap: Human readable
+
+Easy to figure out what the heck something is, based on its name
+
+***
+
+### Plays well with default ordering
+
+#### Plays well with default ordering
+
+- Put something numeric first
+- Use the ISO 8601 standard for dates
+- Left pad other numbers with zeros
+
+#### Examples
+
+**Chronological order**:
+
+<img src = "../fig/chronological_order.png" width = 600>
+
+***
+**Logical order**: Put something numeric first
+
+<img src = "../fig/logical_order.png" width = 600>
+
+***
+**Dates**: Use the ISO 8601 standard for dates: YYYY-MM-DD
+
+<img src = "../fig/chronological_order.png" width = 600>
+
+***
+
+<img src = "../fig/map_mmddyyy.tiff" width = 600>
+
+[From twitter](https://twitter.com/donohoe/status/597876118688026624)
+
+***
+**Left pad other numbers with zeros**
+
+<img src = "../fig/logical_order.png" width = 600>
+
+If you don’t left pad, you get this:
+
+```
+ 10_final-figs-for-publication.R
+ 1_data-cleaning.R
+ 2_fit-model.R
+```
+
+which is just sad :(
+
+***
+#### Recap: Plays well with default ordering
+
+- Put something numeric first
+- Use the ISO 8601 standard for dates
+- Left pad other numbers with zeros
+
+### Recap
+
+*** 
+#### Three principles for (file) names
+
+1. Machine readable
+1. Human readable
+1. Plays well with default ordering
+
+#### Pros
+
+- Easy to implement NOW
+- Payoffs accumulate as your skills evolve and projects get more complex.
+
+***
+Go forth and use awesome file names :)
+
+<img src = "../fig/chronological_order.png" width = 600>
+
+<img src = "../fig/logical_order.png" width = 600>

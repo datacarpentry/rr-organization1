@@ -42,6 +42,7 @@ fig02_histogram-talk-attendance.png
 
 ***
 ### Awesome file names :)
+
 <img src = "../fig/awesome_names.png" width = 500>
 
 ***
@@ -204,4 +205,4 @@ Go forth and use awesome file names :)
 
 <img src = "../fig/chronological_order.png" width = 600>
 
-<img src = "../fig/logical_order.png" width = 600>3
+<img src = "../fig/logical_order.png" width = 600>
