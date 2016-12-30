@@ -14,7 +14,7 @@ output:
       html_document
 ---
 ```{r setup, include = FALSE, fig.align = "center"}
-library(knitr)
+library("knitr")
 opts_chunk$set(echo = TRUE, fig.align = "center")
 ```
 ## Names matter

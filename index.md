@@ -2,9 +2,9 @@
 layout: lesson
 root: .
 ---
-FIXME: home page introduction
+This lesson will teach you the best practices for automating tasks  reproducibility of research.
 
 > ## Prerequisites
 >
-> FIXME
+> No programs are specifically required for this lesson.
 {: .prereq}
