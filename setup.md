@@ -3,4 +3,4 @@ layout: page
 title: Setup
 permalink: /setup/
 ---
-FIXME
+No programs are specially required to complete this lesson. 
