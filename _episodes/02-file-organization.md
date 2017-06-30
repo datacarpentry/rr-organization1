@@ -9,7 +9,7 @@ objectives:
 - "Highlight common SNAFUs"
 keypoints:
 - "File organization is important."
-output:  
+output:
       html_document
 ---
 
@@ -18,6 +18,7 @@ output:
 *A place for everything, everything in its place* - Benjamin Franklin
 
 ***
+
 <img src="../fig/beer_messy_tidy.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="500px" style="display: block; margin: auto;" />
 
 <img src="../fig/files_messy_tidy.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="500px" style="display: block; margin: auto;" />
@@ -29,6 +30,7 @@ output:
 <img src="../fig/workflow.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="500px" style="display: block; margin: auto;" />
 
 ***
+
 #### Face it...
 
 - There are going to be files
@@ -38,6 +40,7 @@ output:
 - It'll probably get complicated
 
 ***
+
 #### Mighty weapon
 
 - File organization and naming is a mighty weapon against chaos
@@ -46,6 +49,7 @@ output:
 - `READMEs` are great, but don't document something if you could just make that thing self-documenting by definition
 
 ***
+
 ### Organizing your data analysis workflow
 
 #### Raw data $\rightarrow$ data
@@ -55,6 +59,7 @@ Pick a strategy, any strategy, just pick one and *stick to it*!
 <img src="../fig/workflow_raw_data_to_data.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="200px" style="display: block; margin: auto;" />
 
 ***
+
 #### Data $\rightarrow$ results
 
 Pick a strategy, any strategy, just pick one and *stick to it*!
@@ -62,6 +67,7 @@ Pick a strategy, any strategy, just pick one and *stick to it*!
 <img src="../fig/workflow_data_to_results_1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="400px" style="display: block; margin: auto;" />
 
 ***
+
 #### Data $\rightarrow$ results
 
 Pick a strategy, any strategy, just pick one and *stick to it*!
@@ -69,11 +75,13 @@ Pick a strategy, any strategy, just pick one and *stick to it*!
 <img src="../fig/workflow_data_to_results_2.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="400px" style="display: block; margin: auto;" />
 
 ***
+
 ### A real (and imperfect!) example
 
 <img src="../fig/sample_real_imperfect.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="600px" style="display: block; margin: auto;" />
 
 ***
+
 #### Data
 
 Ready to analyze data:
@@ -87,6 +95,7 @@ Raw data:
 <img src="../fig/sample_raw_data.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" width="700px" style="display: block; margin: auto;" />
 
 ***
+
 #### Analysis and figures
 
 `R` scripts + the `Markdown` files from "Compile Notebook":
@@ -99,12 +108,14 @@ The figures created in those `R` scripts and linked in those `Markdown` files:
 <img src="../fig/sample_raw_data.png" title="plot of chunk unnamed-chunk-11" alt="plot of chunk unnamed-chunk-11" width="700px" style="display: block; margin: auto;" />
 
 ***
+
 #### Scripts
 Linear progression of `R` scripts, and `Makefile` to run the entire analysis:
 
 <img src="../fig/sample_scripts.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" width="700px" style="display: block; margin: auto;" />
 
 ***
+
 #### Results
 
 Tab-delimited files with one row per gene of parameter estimates, test statistics, etc.:
@@ -112,6 +123,7 @@ Tab-delimited files with one row per gene of parameter estimates, test statistic
 <img src="../fig/sample_results.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" width="600px" style="display: block; margin: auto;" />
 
 ***
+
 #### Expository files
 
 Files to help collaborators understand the model we fit: some markdown docs, a Keynote presentation, Keynote slides exported as PNGs for viewability on GitHub:
@@ -119,6 +131,7 @@ Files to help collaborators understand the model we fit: some markdown docs, a K
 <img src="../fig/sample_expository.png" title="plot of chunk unnamed-chunk-14" alt="plot of chunk unnamed-chunk-14" width="700px" style="display: block; margin: auto;" />
 
 ***
+
 #### Caveats / problems with this example
 
 - This project is no where near done, i.e. no manuscript or publication-ready figs.
@@ -126,6 +139,7 @@ Files to help collaborators understand the model we fit: some markdown docs, a K
 - Code and reports/figures all sit together because it’s just much easier that way w/ `knitr` & `RMarkdown`.
 
 ***
+
 #### Wins of this example
 
 - I can walk away from the project and come back to it a year later and resume work fairly quickly
@@ -134,6 +148,7 @@ Files to help collaborators understand the model we fit: some markdown docs, a K
 GOOD ENOUGH!
 
 ***
+
 ### Other tips
 
 #### Tips: the `from_joe` directory
@@ -145,6 +160,7 @@ GOOD ENOUGH!
 - Whatever I did gets recorded in a `README` or in comments in my `R` code -- whatever makes it easiest for me to remind myself of a file's provenance, if it came from the outside world in a state that was not ready for programmatic analysis.
 
 ***
+
 #### Tip: give yourself less rope
 
 - I often revoke my own write permission to the raw data file.
@@ -152,12 +168,14 @@ GOOD ENOUGH!
 - It also makes it harder to do manual edits in a moment of weakness, when you know you should just add a line to your data cleaning script.
 
 ***
+
 #### Tip: prose
 
 - Sometimes you need a place to park key emails, internal documentation and explanations, random Word and PowerPoint docs people send, etc.
 - This is kind of like `from_joe`, where I don’t force myself to keep same standards with respect to file names and open formats.
 
 ***
+
 #### Tip: life cycle of data
 
 Here’s how most data analyses go down in reality:
@@ -171,6 +189,7 @@ Here’s how most data analyses go down in reality:
 - Both the data file(s) and the code/scripts that acts on them reflect this progression
 
 ***
+
 #### Prepare data $\rightarrow$ Do stats $\rightarrow$ Make tables & figs
 
 The `R` scripts:
@@ -196,6 +215,7 @@ The figures left behind:
 ```
 
 ***
+
 ### Recap
 
 File organization should reflect inputs vs outputs and the flow of information
