@@ -51,7 +51,7 @@ Please post feedback and issues with the lesson on the repository's issue tracke
 [List of filename extensions]: http://en.wikipedia.org/wiki/List_of_file_formats
 [ISO 8601 standard for dates]: http://en.wikipedia.org/wiki/ISO_8601
 [Good practice guidance on releasing statistics in spreadsheets]: https://gss.civilservice.gov.uk/wp-content/uploads/2012/12/Releasing-statistics-in-spreadsheets-Good-practice-guidance.pdf
-[10.4033/iee.2013.6b.6.f]: http://dx.doi.org/10.4033/iee.2013.6b.6.f
-[10.1371/journal.pcbi.1000424]: http://dx.doi.org/10.1371/journal.pcbi.1000424
+[10.4033/iee.2013.6b.6.f]: https://doi.org/10.4033/iee.2013.6b.6.f
+[10.1371/journal.pcbi.1000424]: https://doi.org/10.1371/journal.pcbi.1000424
 [CC Zero]: https://creativecommons.org/publicdomain/zero/1.0/
 [1. Reproducible Science Curriculum Hackathon]: https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014
